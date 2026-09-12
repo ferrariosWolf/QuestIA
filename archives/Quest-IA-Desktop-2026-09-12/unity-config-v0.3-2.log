@@ -1,0 +1,690 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.66f1-e7adf66625be' branch; Version is '6000.0.66f2 (b20bc5da3050) revision 11668421'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Carlos Guido" at "2026-08-27T00:14:02.120838Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 32537 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-27T00:14:02Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-buildTarget
+Android
+-projectPath
+C:\Users\Carlos Guido\Desktop\Quest IA\quest-app
+-executeMethod
+QuestAIV03Setup.Configure
+-logFile
+C:\Users\Carlos Guido\Desktop\Quest IA\unity-config-v0.3-2.log
+Successfully changed project path to: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app
+C:/Users/Carlos Guido/Desktop/Quest IA/quest-app
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10548]  Target information:
+
+Player connection [10548]  * "[IP] 192.168.50.219 [Port] 55504 [Flags] 2 [Guid] 686716437 [EditorId] 686716437 [Version] 1048832 [Id] WindowsEditor(7,CG-PCNOVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-15424" after 0.2 seconds.
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              aebb3eb30ac34d52a899885eb5d58da4
+  Correlation Id:          f50046d6b7e0ff1b39b6a9b62953b157
+  External correlation Id: 2208373130358442082
+  Machine Id:              hQrsDEdSI4L3A6325EVWBaYrfDk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Carlos Guido" (connect: 0.00s, validation: 0.00s, handshake: 0.80s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Carlos Guido-notifications" at "2026-08-27T00:14:02.9247226Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674242676105-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.81s
+[Licensing::Module] Licensing is initialized (took 0.43s).
+[Licensing::Client] Successfully resolved entitlement details
+Targeting platform: Android
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.66f2 (b20bc5da3050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Carlos Guido/Desktop/Quest IA/quest-app/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002344 seconds.
+- Loaded All Assemblies, in  0.252 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1183 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.399 seconds
+Domain Reload Profiling: 1650ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (79ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (93ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1239ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 26 packages:
+  Packages from [https://packages.unity.com]:
+    com.meta.xr.sdk.core@83.0.4 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.meta.xr.sdk.core@a87f85fa91d3)
+    com.unity.inputsystem@1.11.2 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.inputsystem@3c4a97c3950f)
+    com.unity.xr.core-utils@2.4.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.core-utils@50db0cb8b196)
+    com.unity.xr.interaction.toolkit@3.0.9 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.interaction.toolkit@9774edd5e6a4)
+    com.unity.xr.management@4.5.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.management@3126858600e6)
+    com.unity.xr.openxr@1.14.3 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4)
+    com.unity.mathematics@1.3.2 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+  Built-in packages:
+    com.unity.ugui@2.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.ugui@cec3688a7c38)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] Looking for new subsystems at path C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Carlos Guido/Desktop/Quest IA/quest-app/Assets
+[Subsystems] Discovering subsystems at path C:\Users\Carlos Guido\Desktop\Quest IA\quest-app\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Carlos Guido/Desktop/Quest IA/quest-app
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s207ms
+[687/690    0s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[688/690    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[689/690    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.18 seconds), 3 items updated, 690 evaluated
+AssetDatabase: script compilation time: 0.496395s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.414 seconds
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Start importing Assets/Scripts using Guid(d47247994360b6645a4684810c62c0d7) (DefaultImporter) -> (artifact id: '83a32768b09f8f8ffd4f91d5b34ed879') in 0.019713 seconds
+Start importing Assets/Scripts/Core using Guid(d1a7a3bd4470914408ba038f956fb801) (DefaultImporter) -> (artifact id: 'd3f93be9b4bf157419e40b963983075f') in 0.0057972 seconds
+Start importing Assets/Scripts/UI using Guid(e2720038778541d4d95c6c98f5689048) (DefaultImporter) -> (artifact id: '3d2d485cb8085e63ea752d4d4769a545') in 0.0072027 seconds
+Refreshing native plugins compatible for Editor in 4.36 ms, found 7 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1428ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (124ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (36ms)
+			BuildScriptInfoCaches (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.22 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=10433eea113bd9b449b241f94d0b9622): Total: 2.762 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=3 (actual=3, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=1236 ms
+		Asset DB Callback time: managed=569 ms, native=19 ms
+		Scripting: domain reloads=1, domain reload time=414 ms, compile time=498 ms, other=21 ms
+		Project Asset Count: scripts=954, non-scripts=955
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 12.483ms
+	ApplyChangesToAssetFolders: 0.281ms
+	Scan: 58.399ms
+	OnSourceAssetsModified: 0.700ms
+	CategorizeAssetsWithTransientArtifact: 8.046ms
+	ProcessAssetsWithTransientArtifactChanges: 28.313ms
+	CategorizeAssets: 12.452ms
+	ImportOutOfDateAssets: 1067.058ms (531.556ms without children)
+		ImportManagerImport: 37.026ms (3.687ms without children)
+			ImportInProcess: 33.310ms
+			UpdateCategorizedAssets: 0.029ms
+		CompileScripts: 497.834ms
+		ReloadNativeAssets: 0.004ms
+		UnloadImportedAssets: 0.213ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.215ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.208ms
+	PostProcessAllAssets: 571.529ms
+	Hotreload: 4.883ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.136ms
+	PersistCurrentRevisions: 0.098ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 2.691ms
+	Untracked: 997.284ms
+
+Application.AssetDatabase Initial Refresh End
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Scanning for USB devices : 3.198ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Quest AI Assistant
+Unloading 169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2688 unused Assets / (12.6 MB). Loaded Objects now: 3794.
+Memory consumption went from 174.3 MB to 161.7 MB.
+Total: 7.223400 ms (FindLiveObjects: 0.207300 ms CreateObjectMapping: 0.084000 ms MarkObjects: 5.318900 ms  DeleteObjects: 1.612700 ms)
+
+DisplayProgressbar: Copying samples files
+[ScriptCompilation] Requested script compilation because: Assembly Definition File(s) changed
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.000462s
+Start importing Assets/Samples using Guid(b7cc5b10653e20248a4e039bba8374a2) (DefaultImporter) -> (artifact id: '2504d6b4a37c1123ab5019fb50d9099d') in 0.0088122 seconds
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(f346db3138a13c640ae57bba8390f21f) (DefaultImporter) -> (artifact id: '6fb875fc09159b28d263ac4790a7c2ca') in 0.007837 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9 using Guid(17be310822623194b80db57063554125) (DefaultImporter) -> (artifact id: '950338878703f0c9891043edb9d7e782') in 0.0090988 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets using Guid(ba8e81827a2a2e44cbf7a093d3642778) (DefaultImporter) -> (artifact id: '275efdbca1908622a92ce2351ca31273') in 0.0075526 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Editor using Guid(004f0e70ab2efb54a9d93a283d657b97) (DefaultImporter) -> (artifact id: 'bf1c385853ed0142a73d6c57c801d8b9') in 0.0005164 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Scripts using Guid(31bb803a87bc16a4f8153da2e9086604) (DefaultImporter) -> (artifact id: '4724999e6425009842cea41581684998') in 0.0004421 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Textures using Guid(91a77be4c84205e4ba7056605bdb9e1d) (DefaultImporter) -> (artifact id: 'ab004b851d78769bad77beae65b1598a') in 0.0003578 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets using Guid(42541a22bf6270741bd05ac5ca0fccd4) (DefaultImporter) -> (artifact id: 'ea4df6004ac280422b2d8ee679c853f9') in 0.0004334 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Animations using Guid(8214388458fa6ed49b17bdcee2339a6d) (DefaultImporter) -> (artifact id: '165c696a01b716be7293676c85cb9bf4') in 0.0003354 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/AffordanceThemes using Guid(c333f3b28c3ddba48b84169d5da1a730) (DefaultImporter) -> (artifact id: '284324eaa4941ce4da9a5884cddb856c') in 0.0003372 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/TunnelingVignette using Guid(14305397b55fd2148ab7fcbdcbb60a50) (DefaultImporter) -> (artifact id: '2fda2faa351558687d6b458da369fb6a') in 0.0003524 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models using Guid(34f03838a812f0e41b1e3da17ff4038e) (DefaultImporter) -> (artifact id: 'ace08580294813f54e7ad8e135894c0d') in 0.0003377 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets using Guid(18789729524e2584cb481572b253a15c) (DefaultImporter) -> (artifact id: '54d022b9583d8707ceda36066821e02f') in 0.0003485 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Shaders using Guid(388cb625f9bdf7444b7b2df5b64a84c6) (DefaultImporter) -> (artifact id: '0af8d79635932098a6969092d59939b7') in 0.0003444 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs using Guid(d93dd55b5e3f13549ab7e819935c2b3f) (DefaultImporter) -> (artifact id: '1127b09939a00769d343518f6ca9811d') in 0.0003251 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Filters using Guid(cbfc8c172e97a1a429faf76ac87aaf06) (DefaultImporter) -> (artifact id: 'b3eb0c686331b30d0244fa085f33127d') in 0.0003142 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials using Guid(5cfaae8b567b8aa45b7a432b5bb5560c) (DefaultImporter) -> (artifact id: '94ed4123c9aa77578fe9a7db4f299772') in 0.0003527 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models using Guid(90a5974969e85834f8306496fd3cda4c) (DefaultImporter) -> (artifact id: '52480af36f8ecca860657161c6c0461f') in 0.0003241 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs using Guid(91951de0742340f45a1e49a4735db517) (DefaultImporter) -> (artifact id: '9b34719a20b3ccc368296095d63c14a0') in 0.0003416 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Materials using Guid(d4e01b7fb24753742a7665cef9ed7839) (DefaultImporter) -> (artifact id: 'd4b06b43feebe096ba678fe475e2b8b0') in 0.0003587 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors using Guid(f585a443d5224c19adcc94a236a4b2d6) (DefaultImporter) -> (artifact id: 'ca489702d32cd8330d6c2081983317d0') in 0.0003585 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/AffordanceThemes using Guid(f635bc48476c3db41b2fe75737878deb) (DefaultImporter) -> (artifact id: '48e7769b1d8b0dd25a543112cf02f493') in 0.0003336 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Textures using Guid(77dbd9eba08ae3342ae6c444454ddded) (DefaultImporter) -> (artifact id: 'b081df012ebbe7f81e34820df2ab78b2') in 0.0003244 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Teleport using Guid(e71c638c311acc546a63dbfa61f89ab6) (DefaultImporter) -> (artifact id: '68b860d2e6b53dc4d65b4993a9927693') in 0.0003153 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites using Guid(e849a70d25179dc42a5f1fbd87c1b42e) (DefaultImporter) -> (artifact id: 'e06d2297a0fc37bffa5c4b11fe003fd8') in 0.0003161 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Scripts using Guid(89c7da9a19d09c8419df6ac7f38d429e) (DefaultImporter) -> (artifact id: '75ac81b9d20f62b00db35b70cf5d4d4c') in 0.0003754 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Affordances using Guid(9982c3209d4d7ff46accc30b5bfb40cc) (DefaultImporter) -> (artifact id: 'de22255ad010fa15c51c241e0af14c33') in 0.0003328 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Settings using Guid(6a8d03fff18a47f4fa22d3d84425d0ed) (DefaultImporter) -> (artifact id: '169d7751e49a8b39a117b1d92af01073') in 0.0003336 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Audio using Guid(7b95d69e6872d544088b4338a03df20e) (DefaultImporter) -> (artifact id: 'df14a2e365681b3ee2f77e99b5f9dca0') in 0.0004331 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Controllers using Guid(8cb8501f33d08a04fabf074fd81eaf76) (DefaultImporter) -> (artifact id: 'c4b22dcb9ce62dfe47c83288c6386fdb') in 0.0003411 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Editor/Scripts using Guid(ac3833452a6cb0d4bae148ab912d320a) (DefaultImporter) -> (artifact id: 'b11164666ec74321775059a5769cd30a') in 0.000324 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Teleport using Guid(66c6494bc1ad3b348b472a4d6d544e93) (DefaultImporter) -> (artifact id: '4c975e4f7477a447fedb899d97519a8a') in 0.0003453 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI using Guid(579a84533ec1ecc498bdc2cc489d2e79) (DefaultImporter) -> (artifact id: 'bf10a2a52404655277bf126d4bc0471a') in 0.0003163 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables using Guid(6ac303adce39adb499d7f5c90a77c1c1) (DefaultImporter) -> (artifact id: 'a4b7dced3a90621498a886b008ea791e') in 0.0003187 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb using Guid(6c6d684cb56fa7d4f869594e9a2dddb5) (DefaultImporter) -> (artifact id: 'ee56c5d7856805d1444eb9f72b02ade4') in 0.0003523 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Editor/StarterAssets.Editor.asmdef using Guid(9233538b711383d449a485633568d17c) (AssemblyDefinitionImporter) -> (artifact id: 'ac18b11a7e860b05df4906df518a4f35') in 0.0012077 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) (AssemblyDefinitionImporter) -> (artifact id: 'ee6c8137294a337e9501bf35695b549e') in 0.001378 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoScene.unity using Guid(319dafa5c80f29f428dc1e0d03f04177) (DefaultImporter) -> (artifact id: '5c3ddc8c25d3e95d3944df1324ccc667') in 0.0006565 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/TunnelingVignette/TunnelingVignetteSG.shadergraph using Guid(c109fab5d2bf5f64598ed69d2c16ceb3) (DefaultImporter) -> (artifact id: '3c83b58c2f10760d413f13ea247857ec') in 0.0122074 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Shaders/Unlit_Fresnel.shadergraph using Guid(e19b5bb6cb8e91e43b1b5d81a069296f) (DefaultImporter) -> (artifact id: '1447fb946ed2932087b63d526bb40d31') in 0.0005552 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph using Guid(740445f1490c01e4b8feacf8d9ab5e7f) (DefaultImporter) -> (artifact id: 'ed77c7af96522eca275126044e0731b5') in 0.0003814 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Shaders/Interactable.shadergraph using Guid(0927d29e476ce5843b1f7d2a96943c51) (DefaultImporter) -> (artifact id: '932808ebe23bcff48480636e002d9db7') in 0.0003621 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif using Guid(f3fb518ec70eb4047b1c6ec34933fbce) (TextureImporter) -> (artifact id: 'b9a6fb7e6bc59199272cb55d4be94356') in 0.1488363 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png using Guid(e45f8f823c093d941855bb23b53b9414) (TextureImporter) -> (artifact id: 'b5aa5b40046fc6cdd83cd602e93d6cf1') in 0.0101726 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Textures/DefaultMaterial_AO.png using Guid(85e675893a909864d9c237e20202651b) (TextureImporter) -> (artifact id: 'b3b121407a503340ccf978d4f1c22cfe') in 0.4049936 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Asset.png using Guid(17d565bb4a7744b41b7e4dc7e3a09e35) (TextureImporter) -> (artifact id: '43941b5c10dcc775893d660f76e5ccbf') in 0.0049036 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png using Guid(b7bad1260586fa746a0b67e930892936) (TextureImporter) -> (artifact id: '1aba7303e0668ebee527e70b0fbaf352') in 0.0072268 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png using Guid(a85d80c1edb5d2f458d42e79f78055b9) (TextureImporter) -> (artifact id: '547c5eabdf6e7ff0011b7a8eb77dd90f') in 0.2182932 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Forward.png using Guid(f8ecc54972abacc46a93f671b0602139) (TextureImporter) -> (artifact id: 'c7839a0e1c161fdd2ae27e590859b23c') in 0.0062895 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Textures/Concrete_Albedo.tif using Guid(5a327724a94a9674a8a93e6b4e9a6eee) (TextureImporter) -> (artifact id: '9865365512d47f09742e62852c07e2bc') in 0.1275513 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png using Guid(db3e7b7c8db355e499429545071a0321) (TextureImporter) -> (artifact id: 'f50fdad2971279f949be2676a60fb77e') in 0.0066397 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif using Guid(cdebec39dbf81a14688e1de8d12897b4) (TextureImporter) -> (artifact id: '55fa489febc4a51cb23b7d50548e37d8') in 0.0517249 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png using Guid(2f8349570a152884fb6cf7ebdc8c18b3) (TextureImporter) -> (artifact id: 'bd9fe3ee7fa96105918f79bf8cbd3852') in 0.0105523 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png using Guid(affa059594145a843b81788037b4ee21) (TextureImporter) -> (artifact id: '252823bbf6e95aa2d58caf026059b9ca') in 0.0071373 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Shaders/BiRP_Fresnel.shader using Guid(b24c216c4acb0094c892a61dfbbb76b4) (ShaderImporter)Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+ -> (artifact id: '1626ae416b1c464d4e035ce7ba8a51fe') in 0.1627575 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/TunnelingVignette/TunnelingVignette.shader using Guid(e51b4af1e50be764e8de46e07d4e3f3f) (ShaderImporter) -> (artifact id: '741d186107550a10244d6b22425a6c17') in 0.0055288 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Shaders/UI-NoZTest.shader using Guid(a661e7516de55c047905f40ca76fe701) (ShaderImporter) -> (artifact id: '1e817c0880115b7eea45b21a68cfba71') in 0.0051051 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/Flat Blue.mat using Guid(91ff3830fc4055a4fb0d0d2be32101a7) (NativeFormatImporter) -> (artifact id: '97e968cc5e5446356272906014827111') in 0.0015126 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Left Grab Move.preset using Guid(e2e08fffc3edfbb47a429bae0c5a6343) (NativeFormatImporter) -> (artifact id: '8d6b94d1e522e02ca959f71dbca79cbc') in 0.0039209 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Continuous Turn.preset using Guid(735a78fc7c2a98a4e85e0e42bf895f48) (NativeFormatImporter) -> (artifact id: '85ed43a7fc94e958e447b72268eac99a') in 0.0024144 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Materials/Concrete Light Blue.mat using Guid(830d28b607e09a2479e2005c2eb5c75e) (NativeFormatImporter) -> (artifact id: '553916c8577093ca10078ee5ade7b784') in 0.0013697 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Left Controller InputActionManager.preset using Guid(c3d4ecc12d5e0f14c93fd734af32ab63) (NativeFormatImporter) -> (artifact id: '57c5d759fe20e66e86ed956c27bde30d') in 0.0012305 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Materials/Concrete Grey.mat using Guid(842f1b88643f1bb458ba6243088e344e) (NativeFormatImporter) -> (artifact id: '12dfa7a3c3a2753352aa12c6f4d6eecd') in 0.0014255 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset using Guid(55f7614a1d331d14bb631965514937d8) (NativeFormatImporter) -> (artifact id: '4b47a10e92ae6fab897f97d0f6720547') in 0.00105 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/FresnelHighlight.mat using Guid(f5ccd52dc494e054fbe7d7161dcabe25) (NativeFormatImporter) -> (artifact id: '9a3f06438a6b6035476adfac99995162') in 0.0014292 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/Interactable.mat using Guid(76618f7490c40334fa7b685859587d2e) (NativeFormatImporter) -> (artifact id: 'e0fd9dd7603921bd41eefa746f218ea1') in 0.0013274 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Continuous Move.preset using Guid(27c5945ad36f6f147bc402250679a228) (NativeFormatImporter) -> (artifact id: 'f6abf42c70bad4d7bf1c2505c7e098db') in 0.0016084 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/Controller_Grey.mat using Guid(99685157b02e4d446bbecb015645e5e8) (NativeFormatImporter) -> (artifact id: '828ac0979a21b9f01adf4b6ecebb822c') in 0.0013269 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/TunnelingVignette/TunnelingVignette.mat using Guid(0a35b7e20f75a8540a2c14b9555078cb) (NativeFormatImporter) -> (artifact id: 'c78df6b97558a0461d3947075437d53f') in 0.0014583 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Dynamic Move.preset using Guid(da25954ba1a2e604294f2ccda1d6372c) (NativeFormatImporter) -> (artifact id: '85fcde45289b62390d278d23ad2dd92c') in 0.0014424 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Materials/Concrete Dark Blue.mat using Guid(bbb56ac3cf3c61a46ab3887c0fdbda8f) (NativeFormatImporter) -> (artifact id: '27b74d01d879e072d2df4b4079e84692') in 0.0013521 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Animations/ArrowBounce.anim using Guid(ebfa13455423c254e943b87bf6e1f310) (NativeFormatImporter) -> (artifact id: '9c9f4b9650559caef38785a0e5442491') in 0.0021198 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) (NativeFormatImporter) -> (artifact id: 'eba468c2d7d15aeda1a4146dc94c7a19') in 0.0022633 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Materials/Lit White.mat using Guid(fc226930e8fad4c499969204cecfbc05) (NativeFormatImporter) -> (artifact id: '321dc707d4875e1903650f7d8539dfd0') in 0.0012204 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Snap Turn.preset using Guid(5d3a60dbf2f04694f9060712df89debb) (NativeFormatImporter) -> (artifact id: '5ff6c0fe5f65be87e4ca0a4d75df3858') in 0.0019449 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Presets/XRI Default Right Grab Move.preset using Guid(fdc4f514b7b1e9c4eb39713ad9dd4eba) (NativeFormatImporter) -> (artifact id: '62c87b2769df48f6b03097560fa1c398') in 0.001376 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/Telport Anchor.mat using Guid(fd3c5d8fce991e04f9c11109dde95b3b) (NativeFormatImporter) -> (artifact id: '3ee1b2ccfa6fa4a9c9a4d700d3bbb79b') in 0.001387 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/Telport Area.mat using Guid(be1e10ce8a6f8cc4fb08d11c7f722469) (NativeFormatImporter) -> (artifact id: 'a3870869af343ec442830ca02108cafb') in 0.0014154 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/UI-NoZTest.mat using Guid(6f3d696f7c3365846b6dc2402afb3d3e) (NativeFormatImporter) -> (artifact id: 'c9c2f93689cdbeabd6dac3104bd9c138') in 0.0015203 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/Controller_White.mat using Guid(9f12d299d16099343a3c5c0d7285822a) (NativeFormatImporter) -> (artifact id: '9cd8b0eca5cc0a7e4caf40e91c31307b') in 0.0013069 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models/Pinch_Pointer_LOD0.fbx using Guid(e053b8fbc416ba349b4a58a26410bba2) (FBXImporter) -> (artifact id: '5d5eca8da74b44dbeba300168c5a9851') in 0.0293485 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) (FBXImporter) -> (artifact id: 'f95742463e75839b21dddd851baac8d6') in 0.0121952 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Pyramid.fbx using Guid(63e02ddb08ce42da868504e1333d48ae) (FBXImporter) -> (artifact id: '3734bfbc5af38136403a028b925b64a2') in 0.0099636 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Cylinder.fbx using Guid(73b694bb0f61cd14e9e1ed7b578ac09a) (FBXImporter) -> (artifact id: '076baf3bab89172a8605b6f73659f98a') in 0.0104668 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Tapered_Cylinder.fbx using Guid(e3493855a112e8248a2ea2c9828a51a1) (FBXImporter) -> (artifact id: 'c0ab6de1795f8b9220c38d2f0085d7cd') in 0.011159 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models/UniversalController.fbx using Guid(147ae308eec018b40a7b312ae58f44c7) (FBXImporter) -> (artifact id: '85b199719d521bc5f58d0ff7343c8823') in 0.0217579 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx using Guid(e51d3dbfe79e4c646bb30424a11f23a0) (FBXImporter) -> (artifact id: '5dbb316a5a15c88e26fc495b50a162a3') in 0.0155128 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Torus_Cut.fbx using Guid(46c1c422ff6897f49a404b012dc924d3) (FBXImporter) -> (artifact id: '41c1d0d73a6259dda9bc9a23f51b6bef') in 0.0107491 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models/BlinkVisual.fbx using Guid(27b7629e54b332449bfa3a4065ffe17a) (FBXImporter) -> (artifact id: 'adaada9b3d41920ec4803482d4dda06f') in 0.0110315 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) (FBXImporter) -> (artifact id: '0c9671c94e61969fd5406569d5f07dee') in 0.0126381 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster.fbx using Guid(e8cf87fef9298444ca38948b2c8a4073) (FBXImporter) -> (artifact id: '1a5ea5213f751670b342a89f00e0f287') in 0.0157778 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) (FBXImporter) -> (artifact id: '8bc66dd976d237786c7989beace65c33') in 0.0257894 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) (FBXImporter) -> (artifact id: '445bedf0563e859ac4273a64de98c1f5') in 0.0105723 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models/Primitive_Cylinder.fbx using Guid(9e1dc1c14313460d872de39e35129b39) (FBXImporter)Launched and connected uv unwrapper C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Tools/UnwrapCL.exe after 0.05 seconds
+ -> (artifact id: 'daf9f1032ac992c841d6c4f77eb5e7cd') in 0.0791865 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Models/Reticle_Torus.fbx using Guid(be2911572dc3afa448d24b4e97edc5f1) (FBXImporter) -> (artifact id: '4561f2c66ef707d5c86bca7988794c2c') in 0.0111089 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Animations/Climb Teleport Arrow.controller using Guid(db6239f7ccb29ca4aac63126c6a35e7d) (NativeFormatImporter) -> (artifact id: '0f6a1ce6d4edccc02e928f539eafea03') in 0.0032685 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset using Guid(c2712227db89c5142adad58b143bf039) (NativeFormatImporter) -> (artifact id: '75a4f90c352862f6897b1530ec5b4e3c') in 0.0029077 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Settings/GazeTeleportAnchorFilter.asset using Guid(14af1242b4be8e2458dd5bee35c06ae5) (NativeFormatImporter) -> (artifact id: '05be4a99555e159c73d379a80ca93712') in 0.0012838 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/AffordanceThemes/HighlightStrengthInteraction.asset using Guid(795305341a8dbbd46ae54e9a01d6ea95) (NativeFormatImporter) -> (artifact id: 'ccc065a7ecb7a679ae4d427da96d1272') in 0.0011035 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset using Guid(8b0b5aede76faac438e02d2a468f4805) (NativeFormatImporter) -> (artifact id: 'e5704099d7e01083698ad86233384c5f') in 0.0017493 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Materials/MaterialPipelineHandler.asset using Guid(dbe8dcb68b75cd2498ab6c1d96e072a4) (NativeFormatImporter) -> (artifact id: 'c71aa8822919532e922f0b715b571242') in 0.0013599 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/AffordanceThemes/PokeSphereColor.asset using Guid(fc690d1505c48cb4696838b71abd2ca0) (NativeFormatImporter) -> (artifact id: 'f6ebdc118408fcf4a6229f3d0c56974b') in 0.0012295 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset using Guid(fcbe69f7b69204d43b67d30e2487c37c) (NativeFormatImporter) -> (artifact id: '30910ff3d343613e3632e2f6fc532484') in 0.0010944 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Settings/TeleportVolumeDestinationSettings.asset using Guid(8d66c9762e1587643a1164368c8a2c58) (NativeFormatImporter) -> (artifact id: '648e44810d27e63332a95666fe2dce01') in 0.0015794 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/AffordanceThemes/ControllerPokeSphereScale.asset using Guid(fd784a23f6ef7774a8998adf6e979d04) (NativeFormatImporter) -> (artifact id: 'd1f021f518b5d805ebcf9e6c55c4129b') in 0.001344 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColor.asset using Guid(3ec238cb3e80e274c844d7b56f585392) (NativeFormatImporter) -> (artifact id: '5ee6401cf9bfc1031ad96a373d953f7c') in 0.0012099 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset using Guid(0f906c94e2aa0c3488832acc1db04295) (NativeFormatImporter) -> (artifact id: 'c4e0060cd4d83f00159fcecf9a6b0e31') in 0.0012588 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) (ScriptedImporter) -> (artifact id: 'b6ae9afe553d50d65bc96a083d5b4078') in 0.0553662 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav using Guid(16fba6d30ed741d4a9fdd6e79ee2f3ac) (AudioImporter) -> (artifact id: '1940b8fa20f4a1ed2d5bd88c2d6d5754') in 0.6916454 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climbing Wall.prefab using Guid(a0ea40bd139aedc43b0e8374d6139437) (PrefabImporter) -> (artifact id: '36eb41bde193fe687209e2740071a9aa') in 0.0163215 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Gaze Interactables.prefab using Guid(e05cd47ab8981f64badd3bfe29af8f4e) (PrefabImporter) -> (artifact id: '449b7fefc07f83c247ed23df34aa2900') in 0.00859 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab using Guid(c1800acf6366418a9b5f610249000331) (PrefabImporter) -> (artifact id: '4be8e75d7014bc7fa673b0aed0c25b3a') in 0.010954 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab using Guid(6b12f432fa58c224baf0d659706362be) (PrefabImporter) -> (artifact id: '60410a14a858af593c4657a986585fc0') in 0.0028075 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Torus.prefab using Guid(521327bdbcb341f782d36f02cab76cb0) (PrefabImporter) -> (artifact id: 'd1d0d7ab20a9f097079f833a7977d436') in 0.0090389 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab using Guid(3df3e1220f2164f448701a6de8084f92) (PrefabImporter) -> (artifact id: 'f9c7ddaf452a773b1f2261002bfed6e0') in 0.0092364 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab using Guid(b200f6587d118224eba8467281481800) (PrefabImporter) -> (artifact id: '89797f193cbb58b2143c75647597be87') in 0.0076543 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab using Guid(e5db301629853dd4a99835fa70099d79) (PrefabImporter) -> (artifact id: 'e610391947d8905564debaab19409f00') in 0.0046605 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) (PrefabImporter) -> (artifact id: 'b6b16a94ab0f1d4fa02b70034c89ce0b') in 0.0057442 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/InteractionAffordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) (PrefabImporter) -> (artifact id: 'bd7f9d18fddc8ea797ab2970f1dfdd6a') in 0.0018201 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(fad94b617f0540568dbf4c9c4011248c) (PrefabImporter) -> (artifact id: '9bc9bde7cd8371a7577a0eaa3185e3a2') in 0.0057438 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab using Guid(037ba65d346be2a48ad006b9a9a3873e) (PrefabImporter) -> (artifact id: '98bddae7c5b6a8484e5aa7f938a379e5') in 0.0073035 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab using Guid(1392f805216c47742996d4742c80721c) (PrefabImporter) -> (artifact id: '9e1d06dcae5068849f8ecb982ee3e84a') in 0.0028304 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Torus-Cut.prefab using Guid(833cb867d186193418fc107735ae3139) (PrefabImporter) -> (artifact id: '9e68e088d2fca9dce6c230883249bbdb') in 0.0026275 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) (PrefabImporter) -> (artifact id: 'd0318486256210cebb133ebce4153040') in 0.0017955 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb/Ladder.prefab using Guid(b3830b3b2f190ee46a9c88433e985221) (PrefabImporter) -> (artifact id: 'a9c4c0f3b018fb503871000cdfb2f147') in 0.0043953 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Toggle.prefab using Guid(541ed11e270c6994ca5910042c7e04da) (PrefabImporter) -> (artifact id: '906b1e26b4c1e9085caf59ecc8362375') in 0.0034925 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Confetti.prefab using Guid(7942e6544a2b2ae48bcf988d9aed838d) (PrefabImporter) -> (artifact id: '4ae53ab7cdebf9021af24ec94f516b2d') in 0.0050066 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser.prefab using Guid(3549fdaf258e11846b85a316c16c699c) (PrefabImporter) -> (artifact id: 'ffd92a5985a213e3dfbf06f13badc278') in 0.0102889 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab using Guid(657321a07c3561043af55547ec4b0ed7) (PrefabImporter) -> (artifact id: '1f2816d8d2815c42b67e59494b0cc481') in 0.0034126 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) (PrefabImporter) -> (artifact id: 'af114c54528252473ba540f7bbbccc64') in 0.0051484 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi Floor Ladder.prefab using Guid(652585f331bff7e44afb8fe71ec2119f) (PrefabImporter) -> (artifact id: 'e3587ac7850baac8ea0001eefcc581fe') in 0.0148341 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Pot.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) (PrefabImporter) -> (artifact id: 'e736d17431e0c12e0e5f388d16e3d621') in 0.0038611 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser-Long.prefab using Guid(fe7fcf44eedd467489de26ce92577bc3) (PrefabImporter) -> (artifact id: '012e1c10871022cbd37d1797ceef8ff4') in 0.0033653 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Far Grab Samples.prefab using Guid(f5ee409d69254d64da7a3b74d31a5a40) (PrefabImporter) -> (artifact id: '817cebe5ff36560e8644c812f1535fe4') in 0.0093437 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab using Guid(56686f82f64b0af4688a89676403a500) (PrefabImporter) -> (artifact id: '5fbc44a4d3f748c5aa410d8938cf734a') in 0.0023131 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Push Button.prefab using Guid(76f3439a0ae796e4b81bee3f91f888ee) (PrefabImporter) -> (artifact id: '8bb44c65365cd0b6d6153231b1c08936') in 0.0054473 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab using Guid(9f3369e30fbd31f4bb596b1a99babe83) (PrefabImporter) -> (artifact id: '02a724e921b2f88c3c81abeef98a9f53') in 0.0025681 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab using Guid(b84cd05e1160fe34cab2585022c8cd99) (PrefabImporter) -> (artifact id: '699435f2c8c24015ca4511fd65b5b2e2') in 0.0083277 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Affordances/PokePointerAffordance.prefab using Guid(bb91fcbcb3cc896468b372b1c762bfab) (PrefabImporter) -> (artifact id: '3ed8f798acb5aa9c26ba3a8e445815fe') in 0.002439 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) (PrefabImporter) -> (artifact id: 'c4f1eb2402a3c7ec51103d8487253483') in 0.004148 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) (PrefabImporter) -> (artifact id: 'f7d19c3476ca8f6edfc525c191b86f0a') in 0.0218193 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab using Guid(870459f1cb8d7b7428337cc5935feb67) (PrefabImporter) -> (artifact id: '43bb8ba95b61786b3662bf7dd0dfa79f') in 0.0057249 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Cylinder.prefab using Guid(2ed984a58a974166bf92c82a74380454) (PrefabImporter) -> (artifact id: 'a0c1ae23467a64ad5edb784c30050280') in 0.0027418 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab using Guid(6821e1b7f44d8c44b8a2ba02f37309d5) (PrefabImporter) -> (artifact id: '75137f59636e8d6334e5d51558eb37fc') in 0.006814 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Poke Interactions Sample.prefab using Guid(88246f8e9c3765d49be8da34eca3c630) (PrefabImporter) -> (artifact id: '88ca96332e48d7c3bf725c06ff740b54') in 0.006728 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab using Guid(893219773891c784ab469a39151879b4) (PrefabImporter) -> (artifact id: 'c12f57bbd1b6f95d844da5a2516d55b0') in 0.0020433 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/Text Toggle.prefab using Guid(6a448845c7017044e8a9f3d711cfe825) (PrefabImporter) -> (artifact id: 'd6100b3a018dbdc8ee5dddb3a42cab45') in 0.0021904 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/Interactive Controls.prefab using Guid(7bbb1960bab3e75459304488d8d1ffba) (PrefabImporter) -> (artifact id: '39f8dc30dd0351260163ff3739d12629') in 0.0082703 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI/Scroll UI Sample.prefab using Guid(0cbc0856f0fb8d84a81be5dea463c369) (PrefabImporter) -> (artifact id: '8caf04ee5c6a8be31783f9ef0c4c7ea1') in 0.0032473 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/TunnelingVignette/TunnelingVignette.prefab using Guid(6c8af5c8012f01440af6cb2bc3eb987c) (PrefabImporter) -> (artifact id: '2e9016c67e0b175fce947a08f7f4b1a7') in 0.0032375 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) (PrefabImporter) -> (artifact id: 'e21f6967040ee0f89d99b72b77931c17') in 0.0021302 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) (PrefabImporter) -> (artifact id: '5d6fe3c64729d1243ebd85af8a3e505b') in 0.0088546 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb/Single Floor Ladder.prefab using Guid(1f62bdd0e59688d4bb754afe89fa2f5a) (PrefabImporter) -> (artifact id: '5996dc21d45c94ee7def531f4719d8dd') in 0.0039608 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb/Climb Sample.prefab using Guid(2ea572d587ee60f44bd5baa3bc2d6503) (PrefabImporter) -> (artifact id: '3537b9733ac3c5a59d360b4e7323c5d2') in 0.0167413 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Cube.prefab using Guid(2e16046ebcbcb6742a86569d82e56cce) (PrefabImporter) -> (artifact id: '6471494402841e87ef6de22d6121c012') in 0.002135 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Teleportation Environment.prefab using Guid(3e07eccb5e6f459d886de95044adb1d9) (PrefabImporter) -> (artifact id: '197e19ff0c7479c28c73528751b06a7b') in 0.003294 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/DemoSceneAssets/Prefabs/Climb/ClimbTeleportReticle.prefab using Guid(6eb816e9b7ce30f4cadff3d4ad7ad10c) (PrefabImporter) -> (artifact id: '08dd6930641c0b0df4a05f80f484d577') in 0.0024995 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab using Guid(ae1968658b9687b47976fe86c062168f) (PrefabImporter) -> (artifact id: 'b158726a9a845d9091771e85fb707889') in 0.0020225 seconds
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.9/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) (PrefabImporter) -> (artifact id: '2db85fa5f61416c34f36665cd258f5fe') in 0.0045848 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=deeac95496c4a7c4f8d9a2e12247e5bf): Total: 2.940 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=159 (actual=159, local cache=0, cache server=0)
+		Asset DB Process Time: managed=13 ms, native=2879 ms
+		Asset DB Callback time: managed=9 ms, native=37 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=991, non-scripts=1077
+		Asset File Changes: new=173, changed=173, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.059ms
+	Scan: 140.146ms
+	OnSourceAssetsModified: 1.823ms
+	CategorizeAssetsWithTransientArtifact: 0.171ms
+	ProcessAssetsWithTransientArtifactChanges: 0.249ms
+	CategorizeAssets: 1.881ms
+	ImportOutOfDateAssets: 2682.499ms (-0.361ms without children)
+		ImportManagerImport: 2681.863ms (15.795ms without children)
+			ImportInProcess: 2665.516ms
+			UpdateCategorizedAssets: 0.553ms
+		CompileScripts: 0.481ms
+		ReloadNativeAssets: 0.062ms
+		UnloadImportedAssets: 0.131ms
+		ReloadImportedAssets: 0.009ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.154ms
+		InitializingProgressBar: 0.002ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.156ms
+	PostProcessAllAssets: 41.053ms
+	Hotreload: 4.788ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.067ms
+	UnloadStreamsBegin: 0.749ms
+	PersistCurrentRevisions: 0.364ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 0.743ms
+	Untracked: 66.303ms
+
+Asset Pipeline Refresh (id=8535adcf6a0e9e5449b877810f408563): Total: 0.007 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: 'a2f278c3e586ff217dd30fc8aae74837') in 0.0020113 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ea16a1531f009ad4a99d88a8d9256edd): Total: 0.169 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (13.8 KB). Loaded Objects now: 3837.
+Memory consumption went from 153.8 MB to 153.7 MB.
+Total: 5.226500 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.038000 ms MarkObjects: 5.013800 ms  DeleteObjects: 0.050900 ms)
+
+Start importing Assets/FloorMaterial.mat using Guid(1933dd23395f5b5428a138e9b88d3c7f) (NativeFormatImporter) -> (artifact id: 'c1668064ec9b4803ac99f391d281291b') in 0.0075582 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ebca1063acc397042beff0039c82acbe): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Scenes/QuestAI_Main.unity using Guid(7208c1db71775ce43b5f7b1b2993677f) (DefaultImporter) -> (artifact id: '51cf65a392d2d2634814d885f058dae2') in 0.0007088 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c068ebb372d862c42bf7d17adcc15f81): Total: 0.021 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+QUESTAI_V03_AUDIT Android=active ARM64=true IL2CPP=true OpenXR=true MetaXR=true Scene=true Version=0.3.0 VersionCode=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+QuestAIV03Setup:ValidateProject () (at Assets/Editor/QuestAIV03Setup.cs:211)
+QuestAIV03Setup:Configure () (at Assets/Editor/QuestAIV03Setup.cs:30)
+
+(Filename: Assets/Editor/QuestAIV03Setup.cs Line: 211)
+
+QUESTAI_V03_READY
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+QuestAIV03Setup:Configure () (at Assets/Editor/QuestAIV03Setup.cs:31)
+
+(Filename: Assets/Editor/QuestAIV03Setup.cs Line: 31)
+
+Batchmode quit successfully invoked - shutting down!
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-8.13.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "--stop" 
+WorkingDir: 
+CommandInvokationFailure: Gradle build failed. 
+C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-8.13.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "--stop" 
+
+Environment Variables:
+PROCESSOR_ARCHITECTURE = AMD64
+DriverData = C:\Windows\System32\Drivers\DriverData
+USERDOMAIN = CG-PCNOVO
+LANG = C.UTF-8
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+COMPUTERNAME = CG-PCNOVO
+RUST_LOG = warn
+CODEX_SANDBOX_NETWORK_DISABLED = 1
+LOGONSERVER = \\CG-PCNOVO
+PUBLIC = C:\Users\Public
+ProgramData = C:\ProgramData
+LEVEL_ZERO_V1_SDK_PATH = C:\Program Files\LevelZeroSDK\1.24.0\
+APPDATA = C:\Users\Carlos Guido\AppData\Roaming
+SystemRoot = C:\WINDOWS
+windir = C:\WINDOWS
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+TERM = dumb
+ChocolateyLastPathUpdate = 134259164358930499
+OS = Windows_NT
+FFMPEG_HOME = C:\Program Files\PJeOffice Pro
+HOMEPATH = \Users\Carlos Guido
+LOG_FORMAT = json
+ChocolateyInstall = C:\ProgramData\chocolatey
+CODEX_PERMISSION_PROFILE = :workspace
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+GIT_PAGER = cat
+PROCESSOR_LEVEL = 6
+LC_ALL = C.UTF-8
+PROCESSOR_REVISION = b701
+PSModulePath = C:\Users\Carlos Guido\Documents\PowerShell\Modules;C:\Program Files\PowerShell\Modules;c:\users\carlos guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+COLORTERM = 
+CommonProgramFiles = C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN = 1
+CODEX_MCP_NODE_PATH = C:\Users\Carlos Guido\AppData\Local\OpenAI\Codex\runtimes\cua_node\950613ca46815e82\bin\node.exe
+USERDOMAIN_ROAMINGPROFILE = CG-PCNOVO
+TEMP = C:\Users\CARLOS~1\AppData\Local\Temp
+CommonProgramW6432 = C:\Program Files\Common Files
+JAVA_HOME = C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+CODEX_INTERNAL_ORIGINATOR_OVERRIDE = Codex Desktop
+PAGER = cat
+HOMEDRIVE = C:
+CODEX_CI = 1
+USERNAME = Carlos Guido
+OneDrive = C:\Users\Carlos Guido\OneDrive
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+HERMES_GIT_BASH_PATH = C:\Program Files\Git\bin\bash.exe
+OculusBase = C:\Program Files\Meta Horizon\
+CODEX_THREAD_ID = 01a04014-bdb2-7ae1-9844-bd5326a1359a
+NUMBER_OF_PROCESSORS = 28
+CODEX_SESSION_ID = 01a04014-bdb2-7ae1-9844-bd5326a1359a
+PJEOFFICE_HOME = C:\Program Files\PJeOffice Pro
+HERMES_DESKTOP_HERMES_ROOT = C:\Users\Carlos Guido\Desktop\Projetos\hermes-agent
+ComSpec = C:\WINDOWS\system32\cmd.exe
+NO_COLOR = 1
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = 8676faca28eddb6424d4b54116fe8305e2da6a0ca4e5271e8758fc3c55c3b8fc
+CODEX_APP_TOOLS_PIPE_PATH = \\.\pipe\codex-browser-use-0ce6ab4f-b844-497d-8d77-91d032d0fb7b
+GH_PAGER = cat
+TMP = C:\Users\CARLOS~1\AppData\Local\Temp
+SystemDrive = C:
+HERMES_HOME = C:\Users\Carlos Guido\Desktop\Projetos\hermes-agent
+LC_CTYPE = C.UTF-8
+ALLUSERSPROFILE = C:\ProgramData
+Path = C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Carlos Guido\.codex\tmp\arg0\codex-arg0lrjA7i;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Meta Horizon\Support\oculus-runtime;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI\;C:\Users\Carlos Guido\Desktop\Projetos\hermes-agent\hermes-agent\venv\Scripts;C:\Users\Carlos Guido\Desktop\Projetos\hermes-agent\bin;C:\Users\Carlos Guido\.kimi-code\bin;C:\Users\Carlos Guido\.local\bin;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Carlos Guido\AppData\Local\Microsoft\WindowsApps;C:\Users\Carlos Guido\AppData\Roaming\npm;C:\Users\Carlos Guido\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Carlos Guido\.bun\bin;C:\Users\Carlos Guido\AppData\Local\GitHubDesktop\bin;C:\Users\Carlos Guido\AppData\Local\Python\bin;C:\Users\Carlos Guido\AppData\Local\Microsoft\WinGet\Links;C:\Users\Carlos Guido\AppData\Local\Programs\Cua\cua-driver\bin;C:\Users\Carlos Guido\AppData\Local\Unity\bin;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Carlos Guido\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Carlos Guido\AppData\Local\OpenAI\Codex\bin\b91d382ea836415f;C:\Users\Carlos Guido\AppData\Local\OpenAI\Codex\bin\d0097be4feba73d0
+ProgramFiles = C:\Program Files
+LOCALAPPDATA = C:\Users\Carlos Guido\AppData\Local
+USERPROFILE = C:\Users\Carlos Guido
+
+
+stderr[
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+java.io.IOException: Unable to establish loopback connection
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00099] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs:221 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs:159 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg, System.Text.Encoding inputEncoding) [0x0000c] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs:117 
+  at UnityEditor.Android.AndroidJavaTools.RunJava (System.String args, System.String workingdir, System.Action`1[T] progress, System.String error) [0x00046] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/AndroidJavaTools.cs:115 
+  at UnityEditor.Android.GradleWrapper.Run (UnityEditor.Android.AndroidJavaTools javaTools, Unity.Android.Gradle.AndroidGradle androidGradle, System.String workingdir, System.String task, System.String[] extraArguments, System.Action`1[T] progress) [0x00070] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Gradle.cs:227 
+Rethrow as GradleInvokationException: Gradle build failed
+  at UnityEditor.Android.GradleWrapper.Run (UnityEditor.Android.AndroidJavaTools javaTools, Unity.Android.Gradle.AndroidGradle androidGradle, System.String workingdir, System.String task, System.String[] extraArguments, System.Action`1[T] progress) [0x00086] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Gradle.cs:232 
+  at UnityEditor.Android.GradleWrapper.CleanupGradle () [0x00015] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Gradle.cs:191 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at UnityEditor.EditorApplication.Internal_EditorApplicationQuit () [0x00047] in <ec4d24b712d04010abde6027849a490d>:0 
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs Line: 221)
+
+Start importing Assets/XR/Settings/OpenXRPackageSettings.asset using Guid(c4b2a3a42383f064cbb7cdf3ef1d7191) (NativeFormatImporter) -> (artifact id: '6e14a91c37ee83740ca6dd6a3c88f693') in 0.0015346 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=546a8d030dceeaa4db12ff363043d3c8): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Carlos Guido-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Carlos Guido channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

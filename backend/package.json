@@ -1,0 +1,8 @@
+{
+  "name": "quest-ai-backend",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node --env-file-if-exists=.env src/server.mjs", "start:voice": "node --env-file-if-exists=.env src/server.js", "test": "node --test" },
+  "dependencies": { "dotenv": "^17.2.2", "ws": "^8.18.3" },
+  "engines": { "node": ">=22" }
+}

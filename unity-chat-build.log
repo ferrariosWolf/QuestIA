@@ -1,0 +1,1057 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.66f1-e7adf66625be' branch; Version is '6000.0.66f2 (b20bc5da3050) revision 11668421'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-Carlos Guido doesn't exist
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 32537 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-10T14:37:21Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 8860)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\QuestIA\quest-app
+-executeMethod
+QuestAIChatBuild.Build
+-logFile
+C:\QuestIA\unity-chat-build.log
+Successfully changed project path to: C:\QuestIA\quest-app
+C:/QuestIA/quest-app
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20936]  Target information:
+
+Player connection [20936]  * "[IP] 192.168.50.221 [Port] 55504 [Flags] 2 [Guid] 1003541227 [EditorId] 1003541227 [Version] 1048832 [Id] WindowsEditor(7,CG-PCNOVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20936]  * "[IP] 54.232.189.113 [Port] 55504 [Flags] 2 [Guid] 1003541227 [EditorId] 1003541227 [Version] 1048832 [Id] WindowsEditor(7,CG-PCNOVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20936]  * "[IP] 172.27.224.1 [Port] 55504 [Flags] 2 [Guid] 1003541227 [EditorId] 1003541227 [Version] 1048832 [Id] WindowsEditor(7,CG-PCNOVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20936]  * "[IP] 100.118.246.22 [Port] 55504 [Flags] 2 [Guid] 1003541227 [EditorId] 1003541227 [Version] 1048832 [Id] WindowsEditor(7,CG-PCNOVO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20936] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20936] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Carlos Guido" at "2026-09-10T14:37:21.8253259Z"
+[Package Manager] Connected to IPC stream "Upm-5160" after 0.3 seconds.
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              0e31f7131e474a1f83cee19bb5bef549
+  Correlation Id:          bd0358f4768bae30d61fa5d326603230
+  External correlation Id: 227301442089688464
+  Machine Id:              hQrsDEdSI4L3A6325EVWBaYrfDk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Carlos Guido" (connect: 0.37s, validation: 0.04s, handshake: 1.44s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Carlos Guido-notifications" at "2026-09-10T14:37:23.3028007Z"
+[Licensing::Module] Connected to LicensingClient (PId: 8860, launch time: 0.00, total connection time: 1.85s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674242676105-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.87s
+[Licensing::Module] Licensing is initialized (took 0.81s).
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 2.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.66f2 (b20bc5da3050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/QuestIA/quest-app/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8017 MB
+    Driver:   32.0.16.1664
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.215388 seconds.
+- Loaded All Assemblies, in  7.737 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 188 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.442 seconds
+Domain Reload Profiling: 8178ms
+	BeginReloadAssembly (6060ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (363ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (254ms)
+	LoadAllAssembliesAndSetupDomain (1051ms)
+		LoadAssemblies (6058ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1044ms)
+			TypeCache.Refresh (1042ms)
+				TypeCache.ScanAssembly (853ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (257ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 32 packages:
+  Packages from [https://packages.unity.com]:
+    com.meta.xr.sdk.core@83.0.4 (location: C:\QuestIA\quest-app\Library\PackageCache\com.meta.xr.sdk.core@a87f85fa91d3)
+    com.meta.xr.mrutilitykit@83.0.4 (location: C:\QuestIA\quest-app\Library\PackageCache\com.meta.xr.mrutilitykit@7416b411559a)
+    com.unity.inputsystem@1.11.2 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.inputsystem@3c4a97c3950f)
+    com.unity.xr.core-utils@2.4.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.core-utils@50db0cb8b196)
+    com.unity.xr.interaction.toolkit@3.0.9 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.interaction.toolkit@9774edd5e6a4)
+    com.unity.xr.management@4.5.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.management@3126858600e6)
+    com.unity.xr.openxr@1.14.3 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4)
+    com.unity.mathematics@1.3.2 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.ai.navigation@2.0.9 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc)
+    com.unity.nuget.newtonsoft-json@3.2.1 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0)
+  Built-in packages:
+    com.unity.ugui@2.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.ugui@cec3688a7c38)
+    com.unity.modules.androidjni@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.physics@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.ui@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.xr@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.imgui@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.vr@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.uielements@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.textmeshpro@5.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.textmeshpro@53f43edfd2e0)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.ai@1.0.0 (location: C:\QuestIA\quest-app\Library\PackageCache\com.unity.modules.ai)
+[Subsystems] Looking for new subsystems at path C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/QuestIA/quest-app/Assets
+[Subsystems] Discovering subsystems at path C:\QuestIA\quest-app\Library\PackageCache\com.unity.xr.openxr@3903c1059bcf
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/QuestIA/quest-app
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s133ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1300b0aE-inputdata.json
+*** Tundra requires additional run (0.11 seconds), 0 items updated, 426 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1300b0aE.dag.json" "Library/Bee/1300b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 0 Duration: 1s228ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1300b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 0 Duration: 4s559ms
+Finished compiling graph: 763 nodes, 12860 flattened edges (11346 ToBuild, 150 ToUse), maximum node priority 709
+[426/760    0s] WriteText Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.rsp
+[754/760    2s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+[755/760    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[756/760    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[757/760    1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[758/760    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[759/760    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (4.03 seconds), 7 items updated, 760 evaluated
+AssetDatabase: script compilation time: 6.336774s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.804 seconds
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 192.80 ms, found 8 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.098 seconds
+Domain Reload Profiling: 6899ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (129ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (5533ms)
+		LoadAssemblies (5399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1098ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1020ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (881ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.68 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a7bc0b967a6c9ee4eb64039fa171ef22): Total: 15.381 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2521 ms
+		Asset DB Callback time: managed=633 ms, native=58 ms
+		Scripting: domain reloads=1, domain reload time=5804 ms, compile time=6338 ms, other=24 ms
+		Project Asset Count: scripts=1100, non-scripts=1343
+		Asset File Changes: new=1, changed=4, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 50.047ms
+	ApplyChangesToAssetFolders: 0.312ms
+	Scan: 141.650ms
+	OnSourceAssetsModified: 0.548ms
+	CategorizeAssetsWithTransientArtifact: 438.978ms
+	ProcessAssetsWithTransientArtifactChanges: 30.181ms
+	CategorizeAssets: 17.417ms
+	ImportOutOfDateAssets: 1421.388ms (-4917.607ms without children)
+		CompileScripts: 6338.101ms
+		ReloadNativeAssets: 0.020ms
+		UnloadImportedAssets: 0.334ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.280ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.259ms
+	PostProcessAllAssets: 636.154ms
+	Hotreload: 6.186ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 0.474ms
+	PersistCurrentRevisions: 0.054ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 3.711ms
+	Untracked: 12638.091ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 3.404ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Quest AI Assistant
+Unloading 179 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2891 unused Assets / (2.7 MB). Loaded Objects now: 5544.
+Memory consumption went from 209.0 MB to 206.3 MB.
+Total: 7.400800 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.114000 ms MarkObjects: 6.218800 ms  DeleteObjects: 0.828400 ms)
+
+[Optional] Switch to use InputSystem.XR.PoseControl instead of OpenXR.Input.PoseControl, which will be deprecated in a future release.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:LogBuildValidationIssues (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/OpenXRProjectValidation.cs:378)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationBuildStep:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Editor/OpenXRProjectValidationRulesSetup.cs:223)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/OpenXRProjectValidation.cs Line: 378)
+
+[Optional] Switch to use StickControl thumbsticks instead of Vector2Control, but may break existing projects that have code dependencies to the Vector2Control type. StickControl allows more input options for thumbstick-based control, such as acting as both a combined 2D vector, two independent axes or a four-way Dpad with 4 independent buttons.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:LogBuildValidationIssues (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/OpenXRProjectValidation.cs:378)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationBuildStep:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Editor/OpenXRProjectValidationRulesSetup.cs:223)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/OpenXRProjectValidation.cs Line: 378)
+
+Optimize Buffer Discards is only supported on Vulkan graphics API
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.XR.OpenXR.OpenXRProjectValidation:LogBuildValidationIssues (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/OpenXRProjectValidation.cs:378)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationBuildStep:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Editor/OpenXRProjectValidationRulesSetup.cs:223)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@3903c1059bcf/Runtime/OpenXRProjectValidation.cs Line: 378)
+
+[Meta] libopenxr_loader.so from other packages will be disabled because of enabled MetaXRFeature: Packages/com.unity.xr.openxr/MockRuntime/android/arm64/libopenxr_loader.so
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+OVRGradleGeneration:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs:183)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs Line: 183)
+
+[Meta] libopenxr_loader.so from other packages will be disabled because of enabled MetaXRFeature: Packages/com.unity.xr.openxr/MockRuntime/android/x64/libopenxr_loader.so
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+OVRGradleGeneration:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs:183)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs Line: 183)
+
+[Meta] libopenxr_loader.so from other packages will be disabled because of enabled MetaXRFeature: Packages/com.unity.xr.openxr/RuntimeLoaders/android/openxr_loader.aar
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+OVRGradleGeneration:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs:183)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs Line: 183)
+
+[Meta] Native plugin included in build because of enabled MetaXRFeature: Packages/com.meta.xr.sdk.core/Plugins/AndroidOpenXR/OVRPlugin.aar
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+OVRGradleGeneration:OnPreprocessBuild (UnityEditor.Build.Reporting.BuildReport) (at ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs:172)
+UnityEditor.Build.BuildPipelineInterfaces/<>c__DisplayClass17_0:<OnBuildPreProcess>b__1 (UnityEditor.Build.IPreprocessBuildWithReport)
+UnityEditor.Build.BuildPipelineInterfaces:InvokeCallbackInterfacesPair<UnityEditor.Build.IPreprocessBuild, UnityEditor.Build.IPreprocessBuildWithReport> (System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuild>,System.Action`1<UnityEditor.Build.IPreprocessBuild>,System.Collections.Generic.List`1<UnityEditor.Build.IPreprocessBuildWithReport>,System.Action`1<UnityEditor.Build.IPreprocessBuildWithReport>,bool)
+UnityEditor.Build.BuildPipelineInterfaces:OnBuildPreProcess (UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs Line: 172)
+
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '6e900365b01bdef81b1942aca2a80aa7') in 0.0092367 seconds
+Start importing Assets/XR/Settings/OpenXRPackageSettings.asset using Guid(c4b2a3a42383f064cbb7cdf3ef1d7191) (NativeFormatImporter) -> (artifact id: '9d46999e716b76295c4ac74b81f21462') in 0.0069524 seconds
+Start importing Assets/StreamingAssets/RuntimeActionBindings.json using Guid(d64f491ec29214a4bbf0a725bcb5f3ae) (DefaultImporter) -> (artifact id: '20593c9343be2152faece75c3c87215d') in 0.032164 seconds
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.09 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e6919eba05f888a41b672224a52b31e9): Total: 0.259 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+DisplayProgressbar: Checking prerequisites
+PlayerSettings->Active Input Handling is set to Both, this is unsupported on Android and might cause issues with input and application performance. Please choose only one active input handling.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.PostProcessor.Tasks.CheckPrerequisites:ValidateInputHandling () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/CheckPrerequisites.cs:116)
+UnityEditor.Android.PostProcessor.Tasks.CheckPrerequisites:Execute (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/CheckPrerequisites.cs:64)
+UnityEditor.Android.PostProcessor.PostProcessRunner:RunAllTasks (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/AndroidPostProcessor.cs:112)
+UnityEditor.Android.PostProcessAndroidPlayer:PrepareForBuild (UnityEditor.BuildOptions,UnityEditor.BuildTarget) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs:60)
+UnityEditor.Android.AndroidBuildPostprocessor:PrepareForBuild (UnityEditor.BuildPlayerOptions) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:1174)
+UnityEditor.PostprocessBuildPlayer:PrepareForBuild (UnityEditor.BuildPlayerOptions)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/CheckPrerequisites.cs Line: 116)
+
+Android PostProcess task "Checking prerequisites" took 14,1201 ms
+DisplayProgressbar: Detect Java Development Kit (JDK)
+Android PostProcess task "Detect Java Development Kit (JDK)" took 127,1015 ms
+DisplayProgressbar: Detecting Android SDK
+AndroidSDKTools:
+
+	root          : C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\SDK
+	cmdline-tools : C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\cmdline-tools\16.0
+	platform-tools: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools
+	build-tools   : C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\36.0.0
+
+	adb           : C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe
+
+Android PostProcess task "Detecting Android SDK" took 2116,603 ms
+DisplayProgressbar: Detect Android NDK
+Android PostProcess task "Detect Android NDK" took 6,1475 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0,3145 ms
+DisplayProgressbar: Check resources
+Android PostProcess task "Check resources" took 0,1498 ms
+DisplayProgressbar: Check Android Player Settings
+Android PostProcess task "Check Android Player Settings" took 0,1962 ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aESkipCompile.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/QuestIA/quest-app
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 1s262ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1300b0aESkipCompile-inputdata.json
+[2/3        0s] BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json
+*** Tundra requires additional run (0.73 seconds), 1 items updated, 1 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1300b0aESkipCompile.dag.json" "Library/Bee/1300b0aESkipCompile-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 0 Duration: 0s648ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aESkipCompile.dag" --continue-on-failure --dagfilejson="Library\Bee\1300b0aESkipCompile.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 0 Duration: 0s542ms
+Finished compiling graph: 4 nodes, 5 flattened edges (5 ToBuild, 0 ToUse), maximum node priority 3
+*** Tundra build success (0.02 seconds), 0 items updated, 3 evaluated
+Asset Pipeline Refresh (id=b2c64e7d74664b449bb1d4fc646a5442): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: Recompiling scripts for player build.
+BuildPlayer: start building target 13
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aPDevDbg.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/QuestIA/quest-app
+Total cache size 268138658
+Total cache size after purge 268138658, took 00:00:00.3240169
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1300b0aPDevDbg.dag.json" "Library/Bee/1300b0aPDevDbg-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 4 Duration: 0s562ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1300b0aPDevDbg-inputdata.json
+*** Tundra requires additional run (0.03 seconds), 0 items updated, 27 evaluated
+ExitCode: 0 Duration: 0s699ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aPDevDbg.dag" --continue-on-failure --dagfilejson="Library\Bee\1300b0aPDevDbg.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 0 Duration: 3s765ms
+Finished compiling graph: 298 nodes, 2710 flattened edges (2358 ToBuild, 56 ToUse), maximum node priority 198
+[167/297    0s] WriteText Library/Bee/artifacts/1300b0aPDevDbg.dag/Assembly-CSharp.rsp
+[238/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.pdb
+[239/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb
+[240/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll
+[241/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll
+[242/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.ImmersiveDebugger.Interface.dll
+[243/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll
+[244/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.ImmersiveDebugger.Interface.pdb
+[245/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb
+[246/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb
+[247/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb
+[248/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.dll
+[249/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll
+[250/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb
+[251/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.pdb
+[252/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll
+[253/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.pdb
+[254/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.pdb
+[255/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll
+[256/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll
+[257/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb
+[258/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.dll
+[259/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll
+[260/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll
+[261/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.pdb
+[262/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+[263/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.EnvironmentDepth.dll
+[264/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.dll
+[265/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.BuildingBlocks.AIBlocks.dll
+[266/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.dll
+[267/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll
+[268/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/meta.xr.mrutilitykit.dll
+[269/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+[270/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.BuildingBlocks.dll
+[271/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+[272/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.ImmersiveDebugger.dll
+[273/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+[274/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Oculus.VR.dll
+[275/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+[276/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.MultiplayerBlocks.Shared.pdb
+[277/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.BuildingBlocks.AIBlocks.pdb
+[278/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll
+[279/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.BuildingBlocks.DepthAPI.pdb
+[280/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.EnvironmentDepth.pdb
+[281/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.pdb
+[282/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.BuildingBlocks.pdb
+[283/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Meta.XR.ImmersiveDebugger.pdb
+[284/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/meta.xr.mrutilitykit.pdb
+[285/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb
+[286/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb
+[287/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Oculus.VR.pdb
+[288/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb
+[289/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb
+[290/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb
+[291/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.pdb
+[292/297    2s] Csc Library/Bee/artifacts/1300b0aPDevDbg.dag/Assembly-CSharp.dll (+2 others)
+[293/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb
+[294/297    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll
+[296/297    0s] BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)
+*** Tundra build success (3.25 seconds), 59 items updated, 297 evaluated
+Total cache size 268138658
+Total cache size after purge 268138658, took 00:00:00.1291781
+Not rebuilding Data files -- no changes
+
+
+Mono dependencies included in the build
+Dependency assembly - Meta.XR.ImmersiveDebugger.dll
+Dependency assembly - System.Reflection.DispatchProxy.dll
+Dependency assembly - System.Net.WebHeaderCollection.dll
+Dependency assembly - Meta.XR.MultiplayerBlocks.Shared.dll
+Dependency assembly - System.Xaml.dll
+Dependency assembly - System.Collections.Concurrent.dll
+Dependency assembly - System.Threading.Tasks.Parallel.dll
+Dependency assembly - System.Threading.dll
+Dependency assembly - System.Security.dll
+Dependency assembly - System.ServiceModel.dll
+Dependency assembly - System.IO.FileSystem.AccessControl.dll
+Dependency assembly - System.ServiceModel.Duplex.dll
+Dependency assembly - System.Web.ApplicationServices.dll
+Dependency assembly - System.Collections.Specialized.dll
+Dependency assembly - System.Web.Extensions.Design.dll
+Dependency assembly - System.Runtime.Loader.dll
+Dependency assembly - Unity.XR.Interaction.Toolkit.dll
+Dependency assembly - System.Drawing.Primitives.dll
+Dependency assembly - System.IO.IsolatedStorage.dll
+Dependency assembly - System.Globalization.dll
+Dependency assembly - System.Reflection.Emit.Lightweight.dll
+Dependency assembly - System.Runtime.Numerics.dll
+Dependency assembly - System.Security.Cryptography.Primitives.dll
+Dependency assembly - System.ComponentModel.DataAnnotations.dll
+Dependency assembly - System.Dynamic.Runtime.dll
+Dependency assembly - System.Runtime.Extensions.dll
+Dependency assembly - System.Threading.Tasks.Extensions.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+Dependency assembly - System.Runtime.Caching.dll
+Dependency assembly - Oculus.VR.dll
+Dependency assembly - System.IO.Pipes.dll
+Dependency assembly - System.ServiceModel.Primitives.dll
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - System.Data.Common.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDsa.dll
+Dependency assembly - System.Text.Encoding.Extensions.dll
+Dependency assembly - System.Text.RegularExpressions.dll
+Dependency assembly - System.Net.dll
+Dependency assembly - System.Threading.ThreadPool.dll
+Dependency assembly - I18N.Rare.dll
+Dependency assembly - System.Diagnostics.TextWriterTraceListener.dll
+Dependency assembly - System.Xml.XmlDocument.dll
+Dependency assembly - Unity.XR.OpenXR.dll
+Dependency assembly - I18N.CJK.dll
+Dependency assembly - System.Security.Cryptography.Encoding.dll
+Dependency assembly - System.ComponentModel.Annotations.dll
+Dependency assembly - System.Runtime.Serialization.Primitives.dll
+Dependency assembly - System.Collections.dll
+Dependency assembly - System.Reflection.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.ServiceModel.Discovery.dll
+Dependency assembly - System.Security.Cryptography.RSA.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - Meta.XR.BuildingBlocks.AIBlocks.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.Net.Ping.dll
+Dependency assembly - Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Dependency assembly - System.Runtime.DurableInstancing.dll
+Dependency assembly - System.Resources.ResourceManager.dll
+Dependency assembly - System.Security.Cryptography.RandomNumberGenerator.dll
+Dependency assembly - System.Diagnostics.TraceEvent.dll
+Dependency assembly - I18N.MidEast.dll
+Dependency assembly - System.Runtime.InteropServices.dll
+Dependency assembly - Microsoft.Win32.Registry.dll
+Dependency assembly - System.Data.OracleClient.dll
+Dependency assembly - Meta.XR.EnvironmentDepth.dll
+Dependency assembly - System.Web.RegularExpressions.dll
+Dependency assembly - System.Buffers.dll
+Dependency assembly - System.Text.Encoding.CodePages.dll
+Dependency assembly - System.Threading.Tasks.dll
+Dependency assembly - Mono.Data.Sqlite.dll
+Dependency assembly - Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Dependency assembly - Meta.XR.ImmersiveDebugger.Interface.dll
+Dependency assembly - System.Security.Principal.Windows.dll
+Dependency assembly - System.Net.Requests.dll
+Dependency assembly - System.Data.DataSetExtensions.dll
+Dependency assembly - System.Security.Cryptography.Csp.dll
+Dependency assembly - System.Net.Http.WebRequest.dll
+Dependency assembly - System.IdentityModel.dll
+Dependency assembly - System.Reflection.Context.dll
+Dependency assembly - System.Net.Cache.dll
+Dependency assembly - System.Diagnostics.Contracts.dll
+Dependency assembly - System.Xml.XPath.XmlDocument.dll
+Dependency assembly - System.Management.dll
+Dependency assembly - System.Web.dll
+Dependency assembly - System.Diagnostics.Tools.dll
+Dependency assembly - System.Net.AuthenticationManager.dll
+Dependency assembly - Accessibility.dll
+Dependency assembly - System.Security.Cryptography.OpenSsl.dll
+Dependency assembly - Mono.Data.Tds.dll
+Dependency assembly - System.Text.Encoding.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+Dependency assembly - System.Xml.XDocument.dll
+Dependency assembly - System.Diagnostics.TraceSource.dll
+Dependency assembly - System.Security.Cryptography.DeriveBytes.dll
+Dependency assembly - Microsoft.CSharp.dll
+Dependency assembly - System.DirectoryServices.dll
+Dependency assembly - UnityEngine.XR.LegacyInputHelpers.dll
+Dependency assembly - Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Dependency assembly - System.Memory.dll
+Dependency assembly - System.Security.Cryptography.X509Certificates.dll
+Dependency assembly - System.IO.dll
+Dependency assembly - System.Globalization.Calendars.dll
+Dependency assembly - System.ComponentModel.dll
+Dependency assembly - System.Resources.Reader.dll
+Dependency assembly - System.ServiceModel.Web.dll
+Dependency assembly - System.Data.Linq.dll
+Dependency assembly - System.Net.Security.dll
+Dependency assembly - Meta.XR.BuildingBlocks.dll
+Dependency assembly - System.Net.Sockets.dll
+Dependency assembly - System.Collections.NonGeneric.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - System.Diagnostics.Tracing.dll
+Dependency assembly - System.Messaging.dll
+Dependency assembly - System.Threading.Overlapped.dll
+Dependency assembly - System.Xml.XPath.dll
+Dependency assembly - System.Data.SqlClient.dll
+Dependency assembly - System.Windows.dll
+Dependency assembly - System.IO.FileSystem.Watcher.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.IO.FileSystem.dll
+Dependency assembly - I18N.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Security.Cryptography.Pkcs.dll
+Dependency assembly - System.Threading.AccessControl.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - System.Linq.Queryable.dll
+Dependency assembly - System.Security.Cryptography.Cng.dll
+Dependency assembly - System.ServiceProcess.ServiceController.dll
+Dependency assembly - System.Xml.XmlSerializer.dll
+Dependency assembly - I18N.West.dll
+Dependency assembly - System.Security.AccessControl.dll
+Dependency assembly - System.Web.Extensions.dll
+Dependency assembly - System.Windows.Forms.DataVisualization.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - meta.xr.mrutilitykit.dll
+Dependency assembly - I18N.Other.dll
+Dependency assembly - System.Net.Mail.dll
+Dependency assembly - System.Linq.Expressions.dll
+Dependency assembly - System.Net.HttpListener.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - Microsoft.Win32.Registry.AccessControl.dll
+Dependency assembly - System.Net.ServicePoint.dll
+Dependency assembly - System.Runtime.dll
+Dependency assembly - System.Design.dll
+Dependency assembly - System.ServiceModel.Security.dll
+Dependency assembly - System.Xml.Xsl.Primitives.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - System.IO.FileSystem.Primitives.dll
+Dependency assembly - System.IO.FileSystem.DriveInfo.dll
+Dependency assembly - System.Security.Principal.dll
+Dependency assembly - System.ComponentModel.Primitives.dll
+Dependency assembly - System.Runtime.Remoting.dll
+Dependency assembly - System.ObjectModel.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - System.Linq.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.Net.WebSockets.dll
+Dependency assembly - System.Xml.Serialization.dll
+Dependency assembly - Unity.InputSystem.ForUI.dll
+Dependency assembly - System.Net.NetworkInformation.dll
+Dependency assembly - System.DirectoryServices.Protocols.dll
+Dependency assembly - Microsoft.Win32.Primitives.dll
+Dependency assembly - System.Net.Utilities.dll
+Dependency assembly - System.ServiceModel.Routing.dll
+Dependency assembly - Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Dependency assembly - Unity.AI.Navigation.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - System.Security.Cryptography.Encryption.Aes.dll
+Dependency assembly - System.Security.Cryptography.Encryption.dll
+Dependency assembly - System.Reflection.Extensions.dll
+Dependency assembly - System.ComponentModel.TypeConverter.dll
+Dependency assembly - System.Security.Cryptography.Hashing.Algorithms.dll
+Dependency assembly - System.Threading.Thread.dll
+Dependency assembly - System.ServiceModel.Http.dll
+Dependency assembly - Meta.XR.BuildingBlocks.DepthAPI.dll
+Dependency assembly - Unity.XR.CoreUtils.dll
+Dependency assembly - UnityEngine.SpatialTracking.dll
+Dependency assembly - System.Reflection.TypeExtensions.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.Data.Entity.dll
+Dependency assembly - System.ValueTuple.dll
+Dependency assembly - Unity.XR.Management.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Data.Services.Client.dll
+Dependency assembly - System.Resources.ReaderWriter.dll
+Dependency assembly - System.ComponentModel.EventBasedAsync.dll
+Dependency assembly - Unity.XR.OpenXR.Features.MockRuntime.dll
+Dependency assembly - System.Security.Claims.dll
+Dependency assembly - System.IdentityModel.Selectors.dll
+Dependency assembly - System.Web.Services.dll
+Dependency assembly - System.Security.Cryptography.Algorithms.dll
+Dependency assembly - System.Runtime.InteropServices.WindowsRuntime.dll
+Dependency assembly - System.Data.Services.dll
+Dependency assembly - System.Runtime.InteropServices.RuntimeInformation.dll
+Dependency assembly - System.ServiceModel.NetTcp.dll
+Dependency assembly - System.Threading.Timer.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - System.Linq.Parallel.dll
+Dependency assembly - System.Security.Cryptography.Hashing.dll
+Dependency assembly - System.Reflection.Primitives.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.dll
+Dependency assembly - System.AppContext.dll
+Dependency assembly - System.Resources.Writer.dll
+Dependency assembly - System.IO.MemoryMappedFiles.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Diagnostics.Process.dll
+Dependency assembly - System.Net.NameResolution.dll
+Dependency assembly - System.Configuration.Install.dll
+Dependency assembly - System.Runtime.CompilerServices.VisualC.dll
+Dependency assembly - System.dll
+Dependency assembly - System.Reflection.Emit.ILGeneration.dll
+Dependency assembly - Unity.Mathematics.dll
+Dependency assembly - System.Diagnostics.FileVersionInfo.dll
+Dependency assembly - System.Runtime.Serialization.Json.dll
+Dependency assembly - System.Diagnostics.Debug.dll
+Dependency assembly - System.IO.Compression.ZipFile.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.Net.WebSockets.Client.dll
+Dependency assembly - System.Xml.ReaderWriter.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - Newtonsoft.Json.dll
+Dependency assembly - System.Runtime.Handles.dll
+Dependency assembly - System.ServiceProcess.dll
+Dependency assembly - System.Net.Primitives.dll
+Dependency assembly - System.Windows.Forms.dll
+Dependency assembly - System.Drawing.Design.dll
+Dependency assembly - System.Reflection.Emit.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - System.Numerics.Vectors.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.Soap.dll
+Dependency assembly - System.Security.SecureString.dll
+Dependency assembly - Unity.InputSystem.dll
+Dependency assembly - System.Security.Cryptography.ProtectedData.dll
+Dependency assembly - System.IO.UnmanagedMemoryStream.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Console.dll
+Dependency assembly - System.ServiceModel.Activation.dll
+Dependency assembly - System.Web.DynamicData.dll
+Dependency assembly - System.Json.dll
+
+DisplayProgressbar: Initializing
+Android PostProcess task "Initializing" took 0,8464 ms
+DisplayProgressbar: Check gradle project collisions
+Android PostProcess task "Check gradle project collisions" took 0,188 ms
+DisplayProgressbar: Preparing banner
+Android PostProcess task "Preparing banner" took 0,2668 ms
+Plugin 'Packages/com.unity.xr.openxr/Runtime/android/arm64/libUnityOpenXR.so' is not 16KB-aligned. This may cause issues on ARM64 devices running Android 15+.
+More info: <a href="https://developer.android.com/guide/practices/page-sizes">https://developer.android.com/guide/practices/page-sizes</a>.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidBuildPostprocessor:CollectPlugin (string,Unity.Android.Types.AndroidGradleDependee,Unity.Android.Types.AndroidArchitecture,System.Collections.Generic.Dictionary`2<string, UnityEditor.Android.AndroidBuildPostprocessor/AndroidSourcePlugin>,bool) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:481)
+UnityEditor.Android.AndroidBuildPostprocessor:PluginsDataFor (UnityEditor.Modules.BuildPostProcessArgs) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:549)
+UnityEditor.Modules.BeeBuildPostprocessor/<GetDataForBuildProgramFor>d__62:MoveNext ()
+UnityEditor.Android.AndroidBuildPostprocessor/<GetDataForBuildProgramFor>d__29:MoveNext () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:734)
+System.Linq.Enumerable/WhereEnumerableIterator`1<object>:MoveNext ()
+Bee.BeeDriver.BeeDriver:WriteDataForBuildProgram (Bee.BeeDriver.InternalState,System.Threading.Tasks.TaskCompletionSource`1<int>)
+Bee.BeeDriver.BeeDriver/<>c__DisplayClass0_0:<BuildAsync>g__WriteData|0 ()
+Bee.BeeDriver.BeeDriver:BuildAsync (Bee.BeeDriver.BuildRequest,System.Threading.CancellationToken)
+UnityEditor.Modules.BeeBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs)
+UnityEditor.Modules.BeeBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,UnityEditor.BuildProperties&)
+UnityEditor.Android.AndroidBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,UnityEditor.BuildProperties&) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:337)
+UnityEditor.PostprocessBuildPlayer:Postprocess (UnityEditor.BuildTarget,int,string,string,string,UnityEditor.BuildOptions,UnityEditor.RuntimeClassRegistry,UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs Line: 481)
+
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --dagfile="Library/Bee/Player4289bed6.dag" --profile="Library/Bee/backend1.traceevents" Player
+WorkingDir: C:/QuestIA/quest-app
+DisplayProgressbar: Incremental Player Build
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\AndroidPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Tools/BuildPipeline" "Library/Bee/Player4289bed6.dag.json" "Library/Bee/Player4289bed6-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 4 Duration: 0s588ms
+ExitCode: 0 Duration: 2s142ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --dagfile="Library/Bee/Player4289bed6.dag" --dagfilejson="Library\Bee\Player4289bed6.dag.json" --profile="Library/Bee/backend2.traceevents" Player
+WorkingDir: C:/QuestIA/quest-app
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\AndroidPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Tools/BuildPipeline" "Library/Bee/Player4289bed6.dag.json" "Library/Bee/Player4289bed6-inputdata.json" "Library\Bee\buildprogram1.traceevents"
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 4 Duration: 7s623ms
+ExitCode: 0 Duration: 0s410ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --dagfile="Library/Bee/Player4289bed6.dag" --dagfilejson="Library\Bee\Player4289bed6.dag.json" --profile="Library/Bee/backend3.traceevents" Player
+WorkingDir: C:/QuestIA/quest-app
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\AndroidPlayerBuildProgram.exe" "C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/PlaybackEngines/AndroidPlayer/Bee;C:/Program Files/Unity/Hub/Editor/6000.0.66f2/Editor/Data/Tools/BuildPipeline" "Library/Bee/Player4289bed6.dag.json" "Library/Bee/Player4289bed6-inputdata.json" "Library\Bee\buildprogram2.traceevents"
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 4 Duration: 18s
+ExitCode: 0 Duration: 0s418ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\bee_backend.exe --ipc --dagfile="Library/Bee/Player4289bed6.dag" --dagfilejson="Library\Bee\Player4289bed6.dag.json" --profile="Library/Bee/backend4.traceevents" Player
+WorkingDir: C:/QuestIA/quest-app
+ExitCode: 0 Duration: 0s250ms
+DisplayProgressbar: Calling IPostGenerateGradleAndroidProject callbacks
+Calling IPostGenerateGradleAndroidProject callbacks on 'C:\QuestIA\quest-app\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary':
+    Call "Meta.XR.Samples.Editor.UpdateManifestWithCodeSample.OnPostGenerateGradleAndroidProject" from assembly 'Oculus.VR.Editor'
+Total cache size 268138658
+Total cache size after purge 268138658, took 00:00:00.1355432
+    Call "UnityEditor.XR.OpenXR.Features.OculusQuestSupport.ModifyAndroidManifestOculus.OnPostGenerateGradleAndroidProject" from assembly 'Unity.XR.OpenXR.Features.OculusQuestSupport.Editor'
+    Call "UnityEditor.XR.OpenXR.Features.MetaQuestSupport.ModifyAndroidManifestMeta.OnPostGenerateGradleAndroidProject" from assembly 'Unity.XR.OpenXR.Features.MetaQuestSupport.Editor'
+    Call "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestBuildEventReceiver.OnPostGenerateGradleAndroidProject" from assembly 'Unity.XR.Management.Editor'
+    Call "Meta.XR.MetaXRBootConfig.OnPostGenerateGradleAndroidProject" from assembly 'Oculus.VR'
+    Call "UnityEditor.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeatureBuildHooks.OnPostGenerateGradleAndroidProject" from assembly 'Unity.XR.OpenXR.Features.MetaQuestSupport.Editor'
+    Call "OVRGradleGeneration.OnPostGenerateGradleAndroidProject" from assembly 'Oculus.VR.Editor'
+OVRGradleGeneration triggered.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRGradleGeneration:OnPostGenerateGradleAndroidProject (string) (at ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs:281)
+UnityEditor.Android.PostProcessor.Tasks.ProcessGenerateProjectCallbacks:OnGeneratePlatformProjectPostprocess (string,bool) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/ProcessGenerateProjectCallbacks.cs:41)
+UnityEditor.Android.PostProcessor.Tasks.ProcessGenerateProjectCallbacks:Execute (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/ProcessGenerateProjectCallbacks.cs:67)
+UnityEditor.Android.PostProcessor.PostProcessRunner:RunAllTasks (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/AndroidPostProcessor.cs:112)
+UnityEditor.Android.PostProcessAndroidPlayer:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,AndroidPlayerBuildProgram.Data.AndroidPlayerBuildProgramOutput) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs:302)
+UnityEditor.Android.AndroidBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,UnityEditor.BuildProperties&) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:346)
+UnityEditor.PostprocessBuildPlayer:Postprocess (UnityEditor.BuildTarget,int,string,string,string,UnityEditor.BuildOptions,UnityEditor.RuntimeClassRegistry,UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs Line: 281)
+
+QuestFamily = True: Quest = False, Quest2 = True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+OVRGradleGeneration:OnPostGenerateGradleAndroidProject (string) (at ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs:289)
+UnityEditor.Android.PostProcessor.Tasks.ProcessGenerateProjectCallbacks:OnGeneratePlatformProjectPostprocess (string,bool) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/ProcessGenerateProjectCallbacks.cs:41)
+UnityEditor.Android.PostProcessor.Tasks.ProcessGenerateProjectCallbacks:Execute (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/Tasks/ProcessGenerateProjectCallbacks.cs:67)
+UnityEditor.Android.PostProcessor.PostProcessRunner:RunAllTasks (UnityEditor.Android.PostProcessor.PostProcessorContext) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessor/AndroidPostProcessor.cs:112)
+UnityEditor.Android.PostProcessAndroidPlayer:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,AndroidPlayerBuildProgram.Data.AndroidPlayerBuildProgramOutput) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/PostProcessAndroidPlayer.cs:302)
+UnityEditor.Android.AndroidBuildPostprocessor:PostProcess (UnityEditor.Modules.BuildPostProcessArgs,UnityEditor.BuildProperties&) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:346)
+UnityEditor.PostprocessBuildPlayer:Postprocess (UnityEditor.BuildTarget,int,string,string,string,UnityEditor.BuildOptions,UnityEditor.RuntimeClassRegistry,UnityEditor.Build.Reporting.BuildReport)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[],bool)
+UnityEditor.BuildPipeline:BuildPlayerInternal (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (string[],string,string,UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,int,UnityEditor.BuildOptions,string[])
+UnityEditor.BuildPipeline:BuildPlayer (UnityEditor.BuildPlayerOptions)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:17)
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@a87f85fa91d3/Editor/OVRGradleGeneration.cs Line: 289)
+
+    Call "QuestAI.EditorTools.QuestAIXrManifestNamespaceFix.OnPostGenerateGradleAndroidProject" from assembly 'Assembly-CSharp-Editor'
+Android PostProcess task "Calling IPostGenerateGradleAndroidProject callbacks" took 342,8268 ms
+DisplayProgressbar: Validate Gradle Project
+Android PostProcess task "Validate Gradle Project" took 0,6424 ms
+Android PostProcess task "Cloud Diagnostics Symbol Upload" took 0,2086 ms
+DisplayProgressbar: Building Gradle project
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-8.13.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "assembleDebug" 
+WorkingDir: C:/QuestIA/quest-app/Library/Bee/Android/Prj/IL2CPP/Gradle\launcher
+Android PostProcess task "Building Gradle project" took 13318,4468 ms
+DisplayProgressbar: Building Gradle Symbols
+Android PostProcess task "Building Gradle Symbols" took 0,1605 ms
+DisplayProgressbar: Processing Mapping File
+Android PostProcess task "Processing Mapping File" took 0,1974 ms
+DisplayProgressbar: Moving output package(s)
+Deleting file 'C:/QuestIA/builds/QuestAI-chat-dev.apk'
+Copy 'C:/QuestIA/quest-app/Library/Bee/Android/Prj/IL2CPP/Gradle\launcher\build\outputs\apk\debug\launcher-debug.apk' -> 
+ 'C:/QuestIA/builds/QuestAI-chat-dev.apk'
+Android PostProcess task "Moving output package(s)" took 19,9741 ms
+Android PostProcess task "Checking Symbols size" took 0,5136 ms
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '0154878d19cb403a76b5e823ae29e5ef') in 0.002104 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f8319b52bf58268449508b4b11db2178): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 4.16 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=90caa3ea81f65094eac22b4f17fbb822): Total: 0.016 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing ProjectSettings/ProjectSettings.asset using Guid(00000000000000004000000000000000) (LibraryAssetImporter) -> (artifact id: '0154878d19cb403a76b5e823ae29e5ef') in 0.0012858 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7f6c0a98dd08d9a48a98e5ad85f6d71b): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9d6827f7913850d4d863a820d6eccb7e): Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 4.57 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+-------------------------------------------------------------------------------
+Build Report
+Information on used Assets is not available, since player data was not rebuilt.
+Do a clean build to view the Asset build report information.
+-------------------------------------------------------------------------------
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (0.6 MB). Loaded Objects now: 5590.
+Memory consumption went from 167.8 MB to 167.2 MB.
+Total: 7.329500 ms (FindLiveObjects: 0.154300 ms CreateObjectMapping: 0.074500 ms MarkObjects: 6.828000 ms  DeleteObjects: 0.272100 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+##utp:{"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1789051127362,"processId":5160,"steps":[{"description":"Preprocess Player","duration":162},{"description":"Prepare For Build","duration":2273},{"description":"ProducePlayerScriptAssemblies","duration":7780},{"description":"Verify Build setup","duration":264},{"description":"Prepare assets for target platform","duration":3},{"description":"Prepare splash screen","duration":11},{"description":"Run script only build","duration":54},{"description":"Postprocess built player","duration":44584}],"duration":55131}
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.475 ms
+	Integration:            9.167 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   9.653 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 5590.
+Memory consumption went from 166.9 MB to 166.9 MB.
+Total: 6.435800 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.074100 ms MarkObjects: 6.190700 ms  DeleteObjects: 0.006300 ms)
+
+QUESTAI_CHAT_BUILD_OK
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+QuestAIChatBuild:Build () (at Assets/Editor/QuestAIChatBuild.cs:24)
+
+(Filename: Assets/Editor/QuestAIChatBuild.cs Line: 24)
+
+Batchmode quit successfully invoked - shutting down!
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin\java.exe -classpath "C:\Program Files\Unity\Hub\Editor\6000.0.66f2\Editor\Data\PlaybackEngines\AndroidPlayer\Tools\gradle\lib\gradle-launcher-8.13.jar" org.gradle.launcher.GradleMain "-Dorg.gradle.jvmargs=-Xmx4096m" "--stop" 
+WorkingDir: 
+Killing ADB server in 0,5608462 seconds.
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Carlos Guido-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Carlos Guido channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

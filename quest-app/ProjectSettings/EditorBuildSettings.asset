@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/QuestAI_Main.unity
+    guid: 7208c1db71775ce43b5f7b1b2993677f
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2ad776f6e78f6344a9d72e0994e0e4d0, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c4b2a3a42383f064cbb7cdf3ef1d7191, type: 2}
+  m_UseUCBPForAssetBundles: 0
