@@ -102,7 +102,7 @@ const server = http.createServer(async (request, response) => {
   response.end(JSON.stringify({ ok: false, error: "not_found" }));
 });
 
-const questSockets = new WebSocketServer({ server });
+const questSockets = new WebSocketServer({ server, maxPayload: 3_000_000 });
 
 server.on("upgrade", (request) => {
   console.log(`[WS] Incoming connection remoteAddress=${request.socket.remoteAddress ?? "unknown"} url/path=${request.url ?? "/"}`);
@@ -149,6 +149,12 @@ questSockets.on("connection", (questSocket, request) => {
   const voiceRouter = new VoiceRouter({ profile: config.profile, voiceMode: config.voiceMode });
   const vad = new VoiceActivityDetector();
   let utteranceFrames = [];
+  let busy = false;
+  async function runTurn(work) {
+    if (busy) return;
+    busy = true;
+    try { await work(); } finally { busy = false; }
+  }
   let speaking = false; // true enquanto o backend está enviando áudio de resposta (para barge-in)
   let liveSession = null; // sessão Gemini Live ativa, se voiceMode = gemini_live
   let latestVisionFrame = null;
@@ -171,34 +177,19 @@ questSockets.on("connection", (questSocket, request) => {
     try {
       const frame = latestVisionFrame && Date.now() - latestVisionFrame.receivedAt <= 10000 ? latestVisionFrame : null;
       let replyText;
-      if (frame && await providers.muse.isAvailable()) {
+      if (frame && config.routingMode === "auto" && !decision.llmForceMode && await providers.muse.isAvailable()) {
         const result = await providers.muse.sendImage({
           image: frame.image,
           prompt: `${text}\n\nUse a imagem atual como contexto. Identifique ingredientes e objetos visíveis e explique o que são ou como podem ser usados, conforme o pedido.`,
         });
         replyText = result.text;
         sendProviderSelected(questSocket, "vision", "muse-cli");
-      } else if (config.local.enabled && await providers.local.isAvailable()) {
-        // Texto comum fica no modelo local para evitar o custo de iniciar o CLI
-        // do Muse a cada pergunta. A visão continua usando o Muse acima.
-        session.setProvider(providers.local);
-        sendProviderSelected(questSocket, "llm", "local-fast");
-        const result = await providers.local.sendText({
-          prompt: `${text}\n\nResponda em português brasileiro, de forma curta, natural e sem Markdown, asteriscos ou listas decorativas.`,
-          model: config.local.lightModel,
-        });
-        replyText = result.text;
-      } else if (await providers.muse.isAvailable()) {
-        session.setProvider(providers.muse);
-        sendProviderSelected(questSocket, "llm", "muse-cli");
-        const result = await providers.muse.sendText({ prompt: text });
-        replyText = result.text;
       } else {
         const provider = await router.select(decision.llmTask ?? { modality: "text", complexity: "low" }, decision.llmForceMode);
         session.setProvider(provider);
         sendProviderSelected(questSocket, "llm", provider.name);
-        const model = provider.name === "local" ? resourceManager.preferredTextModel() : undefined;
-        const result = await provider.sendText({ prompt: text, model });
+        const result = await provider.sendText({ prompt: text, model: provider.name === "local" ? config.local.lightModel : undefined,
+          system: "Você é o Quest AI. Responda em português brasileiro, em até três frases curtas, naturais e sem Markdown." });
         replyText = result.text;
       }
       replyText = cleanSpeechText(replyText);
@@ -343,6 +334,7 @@ questSockets.on("connection", (questSocket, request) => {
 
   questSocket.on("message", (data, isBinary) => {
     if (isBinary) {
+      if (busy || data.length % 2 !== 0) return;
       const frame = Buffer.from(data);
       const event = vad.process(frame, Date.now());
 
@@ -356,7 +348,7 @@ questSockets.on("connection", (questSocket, request) => {
         utteranceFrames.push(frame);
         const utterance = Buffer.concat(utteranceFrames);
         utteranceFrames = [];
-        void handleUtterance(utterance);
+        void runTurn(() => handleUtterance(utterance));
       }
       return;
     }
@@ -368,8 +360,10 @@ questSockets.on("connection", (questSocket, request) => {
       return;
     }
 
+    if (!message || typeof message !== "object") return;
+
     if (message.type === "text" && typeof message.text === "string") {
-      void handleTextQuery(message.text);
+      if (message.text.trim() && message.text.length <= 2000) void runTurn(() => handleTextQuery(message.text));
     } else if (message.type === "vision_frame" && typeof message.imageBase64 === "string") {
       try {
         const image = Buffer.from(message.imageBase64, "base64");

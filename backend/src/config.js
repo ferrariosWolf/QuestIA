@@ -44,7 +44,7 @@ const KEEP_ALIVE_BY_PROFILE = {
 };
 
 export const config = Object.freeze({
-  host: "0.0.0.0",
+  host: process.env.HOST || "127.0.0.1",
   port: parsePort(process.env.PORT),
   profile,
   routingMode: parseRoutingMode(process.env.AI_ROUTING_MODE),

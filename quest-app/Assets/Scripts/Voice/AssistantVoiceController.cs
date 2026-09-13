@@ -46,6 +46,14 @@ namespace QuestAI.Voice
         private bool microphoneSuppressed;
         private float resumeMicrophoneAt;
 
+        public event Action<string> ResponseReceived;
+
+        public void SendText(string text)
+        {
+            if (IsSessionActive && cancellation != null)
+                _ = SendVisionSafelyAsync(JsonUtility.ToJson(new StatusMessage { type = "text", text = text }), cancellation.Token);
+        }
+
         public bool IsSessionActive => sessionRequested && socket != null && socket.State == WebSocketState.Open;
 
         [Serializable]
@@ -54,17 +62,20 @@ namespace QuestAI.Voice
             public string type = string.Empty;
             public string state = string.Empty;
             public string message = string.Empty;
+            public string text = string.Empty;
         }
 
         private struct InboundMessage
         {
             public string Status;
+            public string Text;
             public byte[] Audio;
             public Exception Error;
 
-            public InboundMessage(string status, byte[] audio, Exception error)
+            public InboundMessage(string status, byte[] audio, Exception error, string text = null)
             {
                 Status = status;
+                Text = text;
                 Audio = audio;
                 Error = error;
             }
@@ -79,7 +90,7 @@ namespace QuestAI.Voice
             playbackSource.playOnAwake = false;
             playbackSource.loop = true;
             playbackSource.spatialBlend = 0f;
-            playbackSource.volume = 1.8f;
+            playbackSource.volume = 1f;
         }
 
         private void OnEnable()
@@ -112,7 +123,9 @@ namespace QuestAI.Voice
             InboundMessage message;
             while (inbound.TryDequeue(out message))
             {
-                if (message.Audio != null)
+                if (message.Text != null)
+                    ResponseReceived?.Invoke(message.Text);
+                else if (message.Audio != null)
                 {
                     Pcm16AudioCodec.DecodePcm16(message.Audio, playbackSamples.Enqueue);
                     // PCM16 mono: 2 bytes por amostra. O backend envia a resposta
@@ -371,8 +384,10 @@ namespace QuestAI.Voice
                             StatusMessage status = JsonUtility.FromJson<StatusMessage>(json);
                             if (status != null && status.type == "status")
                                 inbound.Enqueue(new InboundMessage(status.state, null, null));
+                            else if (status != null && status.type == "response")
+                                inbound.Enqueue(new InboundMessage(null, null, null, status.text));
                             else if (status != null && status.type == "error")
-                                inbound.Enqueue(new InboundMessage(null, null, new InvalidOperationException(status.message)));
+                                inbound.Enqueue(new InboundMessage(null, null, null, status.message));
                         }
                     }
                 }
@@ -414,7 +429,12 @@ namespace QuestAI.Voice
                     stateController.SetConnectionState(AssistantState.Listening);
                     break;
                 case "listening":
-                    stateController.SetConnectionState(AssistantState.Listening);
+                    if (playbackSamples.IsEmpty && float.IsPositiveInfinity(resumeMicrophoneAt))
+                    {
+                        microphoneSuppressed = false;
+                        resumeMicrophoneAt = 0f;
+                    }
+                    if (!microphoneSuppressed) stateController.SetConnectionState(AssistantState.Listening);
                     break;
                 case "thinking":
                     microphoneSuppressed = true;
@@ -468,6 +488,7 @@ namespace QuestAI.Voice
             if (microphoneClip != null)
             {
                 Microphone.End(microphoneDevice);
+                Destroy(microphoneClip);
                 microphoneClip = null;
             }
             if (playbackSource != null)

@@ -24,7 +24,7 @@ export class LocalSTTProvider {
   async transcribe(pcmBuffer, sampleRate) {
     const response = await fetch(
       `${this.baseUrl}/transcribe?sampleRate=${sampleRate}&language=${this.language}`,
-      { method: "POST", headers: { "Content-Type": "application/octet-stream" }, body: pcmBuffer }
+      { method: "POST", headers: { "Content-Type": "application/octet-stream" }, body: pcmBuffer, signal: AbortSignal.timeout(30000) }
     );
     if (!response.ok) {
       throw new Error(`Serviço STT local respondeu ${response.status}.`);

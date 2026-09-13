@@ -22,7 +22,7 @@ export class LocalTTSProvider {
 
   /** @param {string} text @returns {Promise<{pcm: Buffer, sampleRate: number}>} */
   async synthesize(text) {
-    const response = await fetch(`${this.baseUrl}/synthesize?text=${encodeURIComponent(text)}`);
+    const response = await fetch(`${this.baseUrl}/synthesize?text=${encodeURIComponent(text)}`, { signal: AbortSignal.timeout(30000) });
     if (!response.ok) {
       throw new Error(`Serviço TTS local respondeu ${response.status}.`);
     }

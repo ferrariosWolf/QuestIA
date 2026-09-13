@@ -37,7 +37,8 @@ export class GroqProvider extends AIProvider {
         "Content-Type": "application/json",
         Authorization: `Bearer ${this.apiKey}`,
       },
-      body: JSON.stringify({ model: this.textModel, messages }),
+      body: JSON.stringify({ model: this.textModel, messages, max_completion_tokens: 1024 }),
+      signal: AbortSignal.timeout(30000),
     });
     if (!response.ok) {
       throw new Error(`Groq respondeu ${response.status}.`);
@@ -59,6 +60,7 @@ export class GroqProvider extends AIProvider {
       method: "POST",
       headers: { Authorization: `Bearer ${this.apiKey}` },
       body: form,
+      signal: AbortSignal.timeout(30000),
     });
     if (!response.ok) {
       throw new Error(`Groq Whisper respondeu ${response.status}.`);

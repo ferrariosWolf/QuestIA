@@ -61,11 +61,14 @@ export class LocalProvider extends AIProvider {
 
     const response = await fetch(`${this.baseUrl}/api/chat`, {
       method: "POST",
+      signal: AbortSignal.timeout(60000),
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         model: targetModel,
         messages,
         stream: false,
+        think: false,
+        options: { num_predict: 256 },
         keep_alive: this.keepAlive,
       }),
     });
@@ -85,6 +88,7 @@ export class LocalProvider extends AIProvider {
   async sendImage({ image, prompt }) {
     const response = await fetch(`${this.baseUrl}/api/chat`, {
       method: "POST",
+      signal: AbortSignal.timeout(60000),
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         model: this.visionModel,
@@ -92,6 +96,8 @@ export class LocalProvider extends AIProvider {
           { role: "user", content: prompt || "Descreva o que está na imagem.", images: [image.toString("base64")] },
         ],
         stream: false,
+        think: false,
+        options: { num_predict: 256 },
         keep_alive: this.keepAlive,
       }),
     });

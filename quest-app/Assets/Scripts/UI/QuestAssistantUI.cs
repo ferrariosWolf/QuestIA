@@ -65,12 +65,12 @@ namespace QuestAI.UI
 
         private void Refresh(AssistantState state)
         {
-            bool active = state != AssistantState.Inactive;
+            bool active = state != AssistantState.Inactive && state != AssistantState.Error;
             bool voiceError = state == AssistantState.Error;
             headingText.text = "QUEST AI";
-            modeText.text = voiceError ? "Chat disponível • voz desconectada" : active ? "Muse Spark • online" : "Seu assistente espacial";
+            modeText.text = voiceError ? "Voz desconectada • toque ATIVAR VOZ" : state == AssistantState.Listening ? "Ouvindo • fale agora" : state == AssistantState.Thinking ? "Pensando..." : state == AssistantState.Speaking ? "Respondendo..." : active ? "Conectando..." : "Seu assistente espacial";
             modeText.color = voiceError ? new Color(1f, 0.68f, 0.35f) : new Color(0.45f, 0.9f, 1f);
-            versionText.text = active ? string.Empty : "MUSE SPARK 1.3";
+            versionText.text = active ? string.Empty : "VOZ EM PORTUGUÊS";
             stateText.text = active ? state.ToString().ToUpperInvariant() : "PRONTO";
             stateText.color = voiceError ? new Color(1f, 0.68f, 0.35f) : active ? new Color(0.35f, 1f, 0.62f) : new Color(0.72f, 0.78f, 0.84f);
             detailText.text = active ? "Fale naturalmente • câmera pronta para análise" : "Toque para iniciar uma conversa";
@@ -102,11 +102,11 @@ namespace QuestAI.UI
             label.fontSize = 24;
             label.alignment = TextAnchor.MiddleCenter;
             label.color = Color.white;
-            label.text = "CÂMERA  ON";
+            label.text = "PRÉVIA  ON";
             cameraButton.onClick.AddListener(() =>
             {
                 camera.Toggle();
-                label.text = camera.IsVisible ? "CÂMERA  ON" : "CÂMERA  OFF";
+                label.text = camera.IsVisible ? "CÂMERA  ON" : "PRÉVIA  OFF";
             });
         }
     }

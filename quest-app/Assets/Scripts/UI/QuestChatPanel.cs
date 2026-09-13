@@ -12,6 +12,7 @@ namespace QuestAI.UI
         [Serializable] private class Config { public string backendUrl = "http://127.0.0.1:8787"; public string appToken = ""; }
         [Serializable] private class Request { public string message; public string sessionId; }
         [Serializable] private class Reply { public string answer; public string error; public string provider; }
+        private QuestAI.Voice.AssistantVoiceController voice;
         private Config config;
         private InputField input;
         private Text output;
@@ -23,7 +24,7 @@ namespace QuestAI.UI
         {
             var asset = Resources.Load<TextAsset>("QuestChatConfig");
             config = asset == null ? new Config() : JsonUtility.FromJson<Config>(asset.text);
-            input = MakeInput("Pergunta", 50, "Pergunte qualquer coisa ao Muse...");
+            input = MakeInput("Pergunta", 50, "Digite ou fale sua pergunta...");
             output = MakeText("Resposta", -66, 150);
             output.text = "Olá! Como posso ajudar?";
             var go = new GameObject("Enviar", typeof(RectTransform), typeof(Image), typeof(Button));
@@ -32,8 +33,19 @@ namespace QuestAI.UI
             go.GetComponent<Image>().color = new Color(0.13f, 0.55f, 0.95f, 0.82f);
             send = go.GetComponent<Button>();
             var label = MakeText("EnviarLabel", 0, 60); label.transform.SetParent(go.transform, false); label.rectTransform.sizeDelta = new Vector2(250, 60); label.text = "ENVIAR  ›"; label.fontStyle = FontStyle.Bold; label.alignment = TextAnchor.MiddleCenter;
-            send.onClick.AddListener(() => { if (pending == null && !string.IsNullOrWhiteSpace(input.text)) StartCoroutine(Send()); });
+            voice = FindFirstObjectByType<QuestAI.Voice.AssistantVoiceController>();
+            if (voice != null) voice.ResponseReceived += ShowResponse;
+            send.onClick.AddListener(() => {
+                if (string.IsNullOrWhiteSpace(input.text)) return;
+                if (voice == null || !voice.IsSessionActive) { output.text = "Ative a voz para conectar ao assistente."; return; }
+                output.text = "Pensando...";
+                voice.SendText(input.text);
+            });
         }
+
+        private void ShowResponse(string text) { output.text = text; }
+
+        private void OnDestroy() { if (voice != null) voice.ResponseReceived -= ShowResponse; }
 
         private Text MakeText(string name, float y, float height)
         {
