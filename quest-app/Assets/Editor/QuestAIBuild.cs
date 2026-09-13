@@ -42,6 +42,10 @@ public static class QuestAIBuild
     private static void FixInteractivePanelOrientation()
     {
         var scene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(ScenePath, UnityEditor.SceneManagement.OpenSceneMode.Single);
+        // A virtual floor occludes the camera image when the wearer looks down.
+        var comfortFloor = GameObject.Find("Comfort Floor");
+        if (comfortFloor != null) comfortFloor.SetActive(false);
+
         var panel = GameObject.Find("Quest AI Interactive Panel");
         if (panel == null)
             throw new InvalidOperationException("Quest AI Interactive Panel não encontrado na cena principal.");
@@ -73,6 +77,11 @@ public static class QuestAIBuild
             voiceController.gameObject.AddComponent<QuestVisionCapture>();
         if (voiceController.GetComponent<QuestCameraPreview>() == null)
             voiceController.gameObject.AddComponent<QuestCameraPreview>();
+
+        var previewSettings = new SerializedObject(voiceController.GetComponent<QuestCameraPreview>());
+        previewSettings.FindProperty("distance").floatValue = 2.2f;
+        previewSettings.FindProperty("width").floatValue = 4.4f;
+        previewSettings.ApplyModifiedPropertiesWithoutUndo();
 
         var xrCamera = UnityEngine.Object.FindFirstObjectByType<Camera>();
         if (xrCamera != null)
