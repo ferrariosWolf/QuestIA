@@ -38,7 +38,7 @@ namespace QuestAI.Vision
             }
 #endif
             if (cameraAccess == null || !cameraAccess.IsPlaying || captureInProgress || Time.realtimeSinceStartup < nextCaptureAt) return;
-            nextCaptureAt = Time.realtimeSinceStartup + 2f;
+            nextCaptureAt = Time.realtimeSinceStartup + 0.5f;
             StartCoroutine(CaptureFrame());
         }
 
@@ -61,7 +61,9 @@ namespace QuestAI.Vision
                 snapshot = new Texture2D(width, height, TextureFormat.RGB24, false);
                 snapshot.ReadPixels(new Rect(0, 0, width, height), 0, 0, false);
                 snapshot.Apply(false, false);
-                voiceController.SendVisionFrame(snapshot.EncodeToJPG(88), width, height);
+                byte[] jpeg = snapshot.EncodeToJPG(82);
+                Debug.Log($"[QuestAI][Vision] quadro capturado {width}x{height} bytes={jpeg.Length}");
+                voiceController.SendVisionFrame(jpeg, width, height);
             }
             finally
             {
