@@ -61,7 +61,7 @@ public static class QuestAIBuild
         if (voiceController == null)
             throw new InvalidOperationException("AssistantVoiceController não encontrado na cena principal.");
         var voiceSettings = new SerializedObject(voiceController);
-        voiceSettings.FindProperty("backendHost").stringValue = "127.0.0.1";
+        voiceSettings.FindProperty("backendHost").stringValue = "192.168.50.220";
         voiceSettings.FindProperty("backendPort").intValue = 8787;
         voiceSettings.ApplyModifiedPropertiesWithoutUndo();
 

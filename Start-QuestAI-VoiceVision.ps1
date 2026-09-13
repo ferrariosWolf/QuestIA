@@ -2,7 +2,8 @@ $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $logDir = Join-Path $projectRoot 'builds\voice-logs'
 New-Item -ItemType Directory -Path $logDir -Force | Out-Null
-$env:HOST = '127.0.0.1'
+$env:HOST = '0.0.0.0'
+$env:LAN_DISCOVERY = 'true'
 $env:PORT = '8787'
 $env:VOICE_MODE = 'local'
 $env:AI_ROUTING_MODE = 'local_only'
@@ -39,11 +40,5 @@ Start-ReadyService 'tts' $tts (Join-Path $tts '.venv\Scripts\python.exe') @('mai
 $node = (Get-Command node -ErrorAction Stop).Source
 $health = Start-ReadyService 'backend' (Join-Path $projectRoot 'backend') $node @('--env-file-if-exists=.env', 'src/server.js') 8787
 if (-not $health.voice.localSTT -or -not $health.voice.localTTS -or -not $health.providers.local.available -or $health.routingMode -ne 'local_only' -or $health.providers.groq.enabled -or $health.providers.gemini.enabled -or $health.providers.muse.enabled) { throw 'Configuração local incompleta. Verifique os logs antes de ativar a voz.' }
-$adb = 'C:\QuestTools\platform-tools\adb.exe'
-& $adb start-server | Out-Null
-$devices = @(& $adb devices | Where-Object { $_ -match '\tdevice$' })
-if ($devices.Count -ne 1) { throw 'Conecte um Quest por USB e autorize a depuração no headset.' }
-& $adb reverse tcp:8787 tcp:8787
-if ($LASTEXITCODE -ne 0) { throw 'Falha no túnel USB.' }
-& $adb shell am start -n com.questai.assistant/com.unity3d.player.UnityPlayerGameActivity | Out-Null
-Write-Host 'Pronto. No Quest, toque ATIVAR VOZ e fale naturalmente. Mantenha o USB conectado.'
+Write-Host 'Servidor Wi-Fi pronto. No Quest, abra Quest AI e toque ATIVAR VOZ.'
+Write-Host 'PC e Quest devem estar na mesma rede doméstica. O cabo USB não é necessário.'

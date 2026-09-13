@@ -1,3 +1,5 @@
+> Atualização: o uso diário agora funciona por Wi-Fi, sem USB. Consulte WIFI-READY.md. As instruções abaixo registram a validação anterior por USB.
+
 # Voz pronta no Meta Quest 3
 
 Base oficial: C:\QuestIA. O aplicativo atualizado está instalado no Quest conectado por USB.

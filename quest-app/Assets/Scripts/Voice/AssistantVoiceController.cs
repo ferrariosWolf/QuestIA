@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Concurrent;
 using System.IO;
 using System.Net.WebSockets;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -19,9 +21,9 @@ namespace QuestAI.Voice
         private const int PlaybackBufferSeconds = 10;
         private static readonly TimeSpan ConnectionTimeout = TimeSpan.FromSeconds(15);
 
-        [Header("Quest AI Backend — conexão USB via ADB reverse")]
-        [Tooltip("127.0.0.1 funciona no Quest quando adb reverse tcp:8787 tcp:8787 está ativo.")]
-        [SerializeField] private string backendHost = "127.0.0.1";
+        [Header("Quest AI Backend — rede doméstica Wi-Fi")]
+        [Tooltip("O servidor é descoberto na rede. Este IP é usado se a descoberta não responder.")]
+        [SerializeField] private string backendHost = "192.168.50.220";
         [SerializeField] private int backendPort = 8787;
 
         [Header("Áudio")]
@@ -197,7 +199,9 @@ namespace QuestAI.Voice
             {
                 cancellation = new CancellationTokenSource();
                 socket = new ClientWebSocket();
-                uri = new Uri("ws://" + backendHost.Trim() + ":" + backendPort + "/");
+                string discoveredHost = await DiscoverBackendAsync(cancellation.Token);
+                if (!sessionRequested) return;
+                uri = new Uri("ws://" + discoveredHost + ":" + backendPort + "/");
                 Debug.Log($"[QuestAI][WS] Connecting to {uri}", this);
                 using (var connectTimeout = CancellationTokenSource.CreateLinkedTokenSource(cancellation.Token))
                 {
@@ -219,6 +223,43 @@ namespace QuestAI.Voice
                 LogConnectionFailure(exception, uri);
                 Fail(exception);
             }
+        }
+
+        private async Task<string> DiscoverBackendAsync(CancellationToken token)
+        {
+            using (var udp = new UdpClient(0))
+            {
+                udp.EnableBroadcast = true;
+                string nonce = Guid.NewGuid().ToString("N");
+                byte[] request = Encoding.ASCII.GetBytes("QUESTAI_DISCOVER_V1:" + nonce);
+                string expected = "QUESTAI_HERE_V1:" + nonce + ":" + backendPort;
+                Task<UdpReceiveResult> receive = udp.ReceiveAsync();
+                try
+                {
+                    for (int attempt = 0; attempt < 3; attempt++)
+                    {
+                        token.ThrowIfCancellationRequested();
+                        await udp.SendAsync(request, request.Length, new IPEndPoint(IPAddress.Broadcast, 8786));
+                        if (await Task.WhenAny(receive, Task.Delay(1000, token)) == receive)
+                        {
+                            var reply = await receive;
+                            if (Encoding.ASCII.GetString(reply.Buffer) == expected)
+                            {
+                                Debug.Log("[QuestAI][WiFi] Servidor encontrado: " + reply.RemoteEndPoint.Address, this);
+                                return reply.RemoteEndPoint.Address.ToString();
+                            }
+                            receive = udp.ReceiveAsync();
+                        }
+                    }
+                }
+                finally
+                {
+                    udp.Close();
+                    _ = receive.ContinueWith(task => { var ignored = task.Exception; }, TaskContinuationOptions.OnlyOnFaulted);
+                }
+            }
+            token.ThrowIfCancellationRequested();
+            return backendHost.Trim();
         }
 
         private async Task SendJsonAsync(string json, CancellationToken token)

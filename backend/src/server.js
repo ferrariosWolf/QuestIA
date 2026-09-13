@@ -1,4 +1,5 @@
 import http from "node:http";
+import { startDiscovery } from "./discovery.js";
 import { WebSocketServer, WebSocket } from "ws";
 import { config } from "./config.js";
 import { LocalProvider } from "./providers/LocalProvider.js";
@@ -406,7 +407,10 @@ server.listen(config.port, config.host, () => {
   console.log(`[server] modelo local padrão: ${config.local.textModel}`);
 });
 
+const discovery = process.env.LAN_DISCOVERY === "true" ? startDiscovery({ backendPort: config.port }) : null;
+
 function shutdown(signal) {
+  discovery?.close();
   console.log(`[server] encerrando (${signal})`);
   questSockets.clients.forEach((socket) => socket.close(1001, "Servidor encerrando"));
   server.close(() => process.exit(0));
