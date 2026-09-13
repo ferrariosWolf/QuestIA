@@ -40,5 +40,11 @@ Start-ReadyService 'tts' $tts (Join-Path $tts '.venv\Scripts\python.exe') @('mai
 $node = (Get-Command node -ErrorAction Stop).Source
 $health = Start-ReadyService 'backend' (Join-Path $projectRoot 'backend') $node @('--env-file-if-exists=.env', 'src/server.js') 8787
 if (-not $health.voice.localSTT -or -not $health.voice.localTTS -or -not $health.providers.local.available -or $health.routingMode -ne 'local_only' -or $health.providers.groq.enabled -or $health.providers.gemini.enabled -or $health.providers.muse.enabled) { throw 'Configuração local incompleta. Verifique os logs antes de ativar a voz.' }
-Write-Host 'Servidor Wi-Fi pronto. No Quest, abra Quest AI e toque ATIVAR VOZ.'
+Write-Host ''
+Write-Host '============================================'
+Write-Host ' QUEST AI ATIVO NA REDE WI-FI'
+Write-Host ' PC: 192.168.50.220  Porta: 8787'
+Write-Host ' Abra o app no Quest e toque ATIVAR VOZ.'
+Write-Host ' Deixe esta janela aberta enquanto usar.'
+Write-Host '============================================'
 Write-Host 'PC e Quest devem estar na mesma rede doméstica. O cabo USB não é necessário.'

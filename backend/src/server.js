@@ -178,7 +178,14 @@ questSockets.on("connection", (questSocket, request) => {
     try {
       const frame = latestVisionFrame && Date.now() - latestVisionFrame.receivedAt <= 10000 ? latestVisionFrame : null;
       let replyText;
-      if (frame && config.routingMode === "auto" && !decision.llmForceMode && await providers.muse.isAvailable()) {
+      if (frame && await providers.local.isAvailable()) {
+        const result = await providers.local.sendImage({
+          image: frame.image,
+          prompt: `${text}\\n\\nVocê está vendo a imagem atual da câmera do Meta Quest. Responda diretamente o que aparece nela, em português brasileiro, em até três frases curtas. Se algo não estiver visível, diga isso claramente. Não invente detalhes e não diga que você não tem capacidade de analisar imagens.`,
+        });
+        replyText = result.text;
+        sendProviderSelected(questSocket, "vision", "local");
+      } else if (frame && config.routingMode === "auto" && !decision.llmForceMode && await providers.muse.isAvailable()) {
         const result = await providers.muse.sendImage({
           image: frame.image,
           prompt: `${text}\n\nUse a imagem atual como contexto. Identifique ingredientes e objetos visíveis e explique o que são ou como podem ser usados, conforme o pedido.`,
